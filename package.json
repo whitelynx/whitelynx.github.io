@@ -1,0 +1,23 @@
+{
+  "name": "whitelynx.github.io",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "README.md",
+  "scripts": {
+	  "dev": "vuepress dev --no-clear-screen",
+	  "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitelynx/whitelynx.github.io.git"
+  },
+  "author": "David H. Bronke <whitelynx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whitelynx/whitelynx.github.io/issues"
+  },
+  "homepage": "https://github.com/whitelynx/whitelynx.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.1"
+  }
+}
