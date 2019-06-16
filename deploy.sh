@@ -6,7 +6,7 @@ set -e
 # build
 npm run build
 
-cd docs/.vuepress/dist
+cd .vuepress/dist
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
