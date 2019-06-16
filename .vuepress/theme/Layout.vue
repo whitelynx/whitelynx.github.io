@@ -57,6 +57,12 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,300italic|Quattrocento+Sans:400,400italic,700,700italic|Oxygen+Mono');
+
+* {
+	box-sizing: border-box;
+}
+
 html {
 	background: #121312;
 	background-size: cover;
@@ -67,6 +73,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 
 a:link, a:visited {
@@ -84,6 +91,20 @@ a.header-anchor {
 	font-size: 0.75rem;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+    clear: both;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0.2em;
+}
+h1:first-child {
+    margin-top: 0;
+}
+
+code, kbd, pre, samp {
+    font-family: 'Oxygen Mono';
+    font-size: 0.8em;
+}
 
 header:before {
 	display: block;
@@ -176,7 +197,11 @@ section > .content__default > p:last-child {
 
 @media screen and (min-width: 680px) {
 	header {
-		padding: 10% 20% 0;
+		padding: 10% 0 0;
+	}
+	header nav, header .vcard {
+		width: 680px;
+		margin: 0 auto;
 	}
 
 	header nav {
@@ -186,16 +211,31 @@ section > .content__default > p:last-child {
 		justify-content: flex-start;
 		align-content: flex-start;
 		align-items: flex-end;
-		margin: 0;
 	}
 	header nav a:link, header nav a:visited {
 		margin: 0 0 0 1em;
 	}
 
 	section {
-		margin: 0 20% 2rem;
+		margin: 0 auto 2rem;
+		width: 680px;
 		box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.35);
 		border-radius: 4px;
+	}
+}
+
+@media screen and (min-width: 1133px) {
+	header {
+		padding: 10% 20% 0;
+	}
+	header nav, header .vcard {
+		width: auto;
+		margin: 0;
+	}
+
+	section {
+		margin: 0 20% 2rem;
+		width: auto;
 	}
 }
 
