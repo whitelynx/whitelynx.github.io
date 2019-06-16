@@ -1,5 +1,6 @@
 <template>
 	<article>
+		<script src="https://kit.fontawesome.com/78be0865e8.js"></script>
 		<header>
 			<div class="vcard">
 				<h1 class="fn">David H. Bronke</h1>
@@ -9,35 +10,38 @@
 					Middle Name: <span class="additional-name">Henry</span><br>
 					Last Name: <span class="family-name">Bronke</span>
 				</div>
-				<dl :class="{'alt-layout': Boolean($site.themeConfig.url)}">
+				<dl v-if="$site.themeConfig.showContactInfo" :class="{'alt-layout': Boolean($site.themeConfig.url)}">
 					<dt class="email-label"><i class="far fa-envelope"></i></dt>
-					<dd class="email">
-					<a class="value" :href="'mailto:' + $site.themeConfig.email">{{ $site.themeConfig.email }}</a>
-					</dd>
+						<dd class="email">
+							<a class="value" :href="'mailto:' + $site.themeConfig.email">{{ $site.themeConfig.email }}</a>
+						</dd>
+
 					<dt class="adr-label"><i class="fas fa-map-marker-alt"></i></dt>
-					<dd class="adr-container">
-					<!--a class="adr" :href="https://maps.apple.com/?q=' + $site.themeConfig.addressQuery"-->
-					<div class="adr">
-						<div class="street-address">{{ $site.themeConfig.address1 }}</div>
-						<div v-if="$site.themeConfig.address2" class="extended-address">{{ $site.themeConfig.address2 }}</div>
-						<div>
-							<span class="locality">{{ $site.themeConfig.city }}</span>,
-							<abbr class="region" :title="$site.themeConfig.state">{{ $site.themeConfig.stateAbbr }}</abbr>
-							<span class="postal-code">{{ $site.themeConfig.zip }}</span>
-						</div>
-						<div class="country-name">{{ $site.themeConfig.country }}</div>
-					</div>
-					</dd>
-					<dt class="tel-label"><i class="fas fa-phone"></i></dt>
-					<dd class="tel">
-					<abbr class="type" title="home"></abbr>
-					<abbr class="type" title="voice"></abbr>
-					<a class="value" :href="'tel:' + $site.themeConfig.phoneNumber">{{ $site.themeConfig.phoneNumber }}</a>
-					</dd>
+						<dd class="adr-container">
+							<!--a class="adr" :href="https://maps.apple.com/?q=' + $site.themeConfig.addressQuery"-->
+							<div class="adr">
+								<div class="street-address">{{ $site.themeConfig.address1 }}</div>
+								<div v-if="$site.themeConfig.address2" class="extended-address">{{ $site.themeConfig.address2 }}</div>
+								<div>
+									<span class="locality">{{ $site.themeConfig.city }}</span>,
+									<abbr class="region" :title="$site.themeConfig.state">{{ $site.themeConfig.stateAbbr }}</abbr>
+									<span class="postal-code">{{ $site.themeConfig.zip }}</span>
+								</div>
+								<div class="country-name">{{ $site.themeConfig.country }}</div>
+							</div>
+						</dd>
+
+					<dt v-if="$site.themeConfig.phoneNumber" class="tel-label"><i class="fas fa-phone"></i></dt>
+						<dd v-if="$site.themeConfig.phoneNumber" class="tel">
+							<abbr class="type" title="home"></abbr>
+							<abbr class="type" title="voice"></abbr>
+							<a class="value" :href="'tel:' + $site.themeConfig.phoneNumber">{{ $site.themeConfig.phoneNumber }}</a>
+						</dd>
+
 					<dt v-if="$site.themeConfig.url" class="url-label"><i class="fas fa-globe"></i></dt>
-					<dd v-if="$site.themeConfig.url" class="url">
-					<a class="value" :href="$site.themeConfig.url">{{ $site.themeConfig.url }}</a>
-					</dd>
+						<dd v-if="$site.themeConfig.url" class="url">
+							<a class="value" :href="$site.themeConfig.url">{{ $site.themeConfig.url }}</a>
+						</dd>
 				</dl>
 			</div>
 
@@ -48,15 +52,13 @@
 
 		<section>
 			<Content/>
-			<!--pre>{{ JSON.stringify($site, null, "  ") }}</pre>
-			<pre>{{ JSON.stringify($page, null, "  ") }}</pre-->
 		</section>
 	</article>
 </template>
 
 <style>
 html {
-	background: #121312; /*url('https://res.cloudinary.com/whitelynx/image/upload/v1560618865/DSC02701_anjvlo.jpg') no-repeat 50% 0 fixed; */
+	background: #121312;
 	background-size: cover;
 	color: #eeefee;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
@@ -103,6 +105,7 @@ header {
 	z-index: 1;
 	border-bottom: 1px solid black;
 	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
 }
 
 header .vcard > * {
@@ -171,6 +174,205 @@ section > p:first-child {
 }
 section > p:last-child {
 	margin-bottom: 0;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1rem;
+}
+.grid > a {
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+	text-align: center;
+	padding: 2em 0;
+	text-decoration: none;
+	transition: all 300ms ease-in-out;
+}
+.grid > a > i, .grid > a > svg {
+	display: block;
+	fill: #fff;
+	font-size: 5em;
+	width: 80px;
+	text-decoration: none;
+	margin: 0 auto 1rem;
+	transition: all 300ms ease-in-out;
+}
+.grid > a:hover, .grid > a:focus {
+	background: #000;
+}
+.grid > a:hover > i.fa-gitlab, .grid > a:focus > i.fa-gitlab {
+	color: #e65328;
+}
+.grid > a:hover > i.fa-linkedin, .grid > a:focus > i.fa-linkedin {
+	color: #0073b1;
+}
+
+
+dl {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+dt {
+	position: relative;
+	width: 25%;
+	float: left;
+	clear: both;
+	margin: 0.7em 0 0;
+	color: #080;
+	font-weight: bold;
+	text-align: right;
+	page-break-inside: avoid;
+}
+dt a[href] {
+	color: #080;
+	text-decoration-line: underline;
+	text-decoration-color: #46c146;
+}
+dt a[href]:hover,
+dt a[href]:focus {
+	text-decoration-color: #080;
+}
+dt em {
+	display: block;
+	font-weight: normal;
+	font-size: 8pt;
+	color: #17a417;
+}
+dt + dd {
+	margin: 0.7em 0 0;
+}
+dt:last-of-type {
+	margin-bottom: 0.9em;
+}
+dt svg {
+	margin-right: 0.2ex;
+}
+dd {
+	float: right;
+	clear: right;
+	padding: 0 0 0.25em 1em;
+	width: 75%;
+	margin: 0;
+	page-break-inside: avoid;
+}
+dd:last-child {
+	margin-bottom: 0.9em;
+}
+dd em {
+	font-size: 11pt;
+}
+
+h1:first-child {
+	margin-top: 0;
+}
+.vcard {
+	page-break-inside: avoid;
+}
+@media screen and (min-width: 680px) {
+	.vcard {
+		position: relative;
+	}
+	.vcard dl {
+		display: grid;
+		grid-template-columns: repeat(3, 55px 1fr);
+		margin-bottom: 0.6em;
+	}
+	.vcard dl.alt-layout {
+		grid-template-columns: 55px 3fr 55px 2fr;
+		grid-template-rows: repeat(3, 1fr);
+		grid-template-areas: "dt1 dd1 dt4 dd4" "dt2 dd2 dt4 dd4" "dt3 dd3 dt4 dd4";
+	}
+	.vcard dl.alt-layout dt.email-label {
+		grid-area: dt1;
+	}
+	.vcard dl.alt-layout dd.email {
+		grid-area: dd1;
+	}
+	.vcard dl.alt-layout dt.tel-label {
+		grid-area: dt2;
+	}
+	.vcard dl.alt-layout dd.tel {
+		grid-area: dd2;
+	}
+	.vcard dl.alt-layout dt.url-label {
+		grid-area: dt3;
+	}
+	.vcard dl.alt-layout dd.url {
+		grid-area: dd3;
+	}
+	.vcard dl.alt-layout dt.adr-label {
+		grid-area: dt4;
+	}
+	.vcard dl.alt-layout dd.adr-container {
+		grid-area: dd4;
+	}
+	.vcard dl dt,
+	.vcard dl dd {
+		width: auto;
+		margin-bottom: 0;
+	}
+	.vcard + h2 {
+		margin-top: 0;
+	}
+}
+@media print {
+	.vcard {
+		position: relative;
+		border-bottom: 1px solid #eee;
+	}
+	.vcard::before {
+		position: absolute;
+		top: 0;
+		right: 0;
+		color: #f8f8f8;
+		content: 'Résumé';
+		font-weight: bold;
+		font-style: italic;
+		font-size: x-large;
+	}
+	.vcard dl {
+		display: grid;
+		grid-template-columns: repeat(3, 55px 1fr);
+		margin-bottom: 0.6em;
+	}
+	.vcard dl.alt-layout {
+		grid-template-columns: 55px 3fr 55px 2fr;
+		grid-template-rows: repeat(3, 1fr);
+		grid-template-areas: "dt1 dd1 dt4 dd4" "dt2 dd2 dt4 dd4" "dt3 dd3 dt4 dd4";
+	}
+	.vcard dl.alt-layout dt.email-label {
+		grid-area: dt1;
+	}
+	.vcard dl.alt-layout dd.email {
+		grid-area: dd1;
+	}
+	.vcard dl.alt-layout dt.tel-label {
+		grid-area: dt2;
+	}
+	.vcard dl.alt-layout dd.tel {
+		grid-area: dd2;
+	}
+	.vcard dl.alt-layout dt.url-label {
+		grid-area: dt3;
+	}
+	.vcard dl.alt-layout dd.url {
+		grid-area: dd3;
+	}
+	.vcard dl.alt-layout dt.adr-label {
+		grid-area: dt4;
+	}
+	.vcard dl.alt-layout dd.adr-container {
+		grid-area: dd4;
+	}
+	.vcard dl dt,
+	.vcard dl dd {
+		width: auto;
+		margin-bottom: 0;
+	}
+	.vcard + h2 {
+		margin-top: 0;
+	}
 }
 </style>
 
