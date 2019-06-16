@@ -94,18 +94,18 @@ header:before {
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-	background: #121312 url('https://res.cloudinary.com/whitelynx/image/upload/v1560624377/DSC01579_kwokrv.jpg') no-repeat 0 0;
+	background: #121312 url('https://res.cloudinary.com/whitelynx/image/upload/v1560624377/DSC01579_kwokrv.jpg') no-repeat 50% 0;
 	background-size: cover;
 }
 
 header {
 	position: relative;
 	margin: 0;
-	padding: 10% 20% 0;
+	padding: 1rem 1rem 0;
 	z-index: 1;
 	border-bottom: 1px solid black;
 	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
-	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.65);
 }
 
 header .vcard > * {
@@ -116,26 +116,24 @@ header .vcard > h1 {
 	float: left;
 	margin-top: 0;
 	padding: 0.25em 0;
-	text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+	text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.45);
 }
 
 header nav {
 	clear: both;
-	margin: 0;
+	margin: 0 -1rem;
 	padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-end;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+	text-align: center;
 }
 
 header nav a:link, header nav a:visited {
 	display: block;
     flex: 0 1 auto;
     align-self: auto;
-	margin: 0 0 0 1em;
+	margin: 0;
 	padding: 0.5em 1em;
 	color: #eee;
 	background: rgba(0, 0, 0, 0.25);
@@ -156,17 +154,15 @@ header nav a.current {
 	border-bottom-color: rgba(0, 255, 48, 0.5);
 }
 
-
 section {
 	position: relative;
-	margin: 0 20% 2rem;
+	margin: 0 0 2rem;
 	padding: 1rem;
 	background: rgba(40, 44, 40, 0.5);
-	box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.35);
-	border-radius: 4px;
 }
 header + section {
-	border-radius: 0 0 4px 4px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
 }
 
 section > p:first-child,
@@ -176,6 +172,31 @@ section > .content__default > p:first-child {
 section > p:last-child,
 section > .content__default > p:last-child {
 	margin-bottom: 0;
+}
+
+@media screen and (min-width: 680px) {
+	header {
+		padding: 10% 20% 0;
+	}
+
+	header nav {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-content: flex-start;
+		align-items: flex-end;
+		margin: 0;
+	}
+	header nav a:link, header nav a:visited {
+		margin: 0 0 0 1em;
+	}
+
+	section {
+		margin: 0 20% 2rem;
+		box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.35);
+		border-radius: 4px;
+	}
 }
 
 .grid {
@@ -270,52 +291,58 @@ h1:first-child {
 }
 .vcard {
 	page-break-inside: avoid;
+	position: relative;
+}
+.vcard dl {
+	display: grid;
+	grid-template-columns: 55px 1fr;
+	margin-bottom: 0.6em;
+}
+.vcard dl.alt-layout {
+	grid-template-areas: "dt1 dd1" "dt2 dd2" "dt3 dd3" "dt4 dd4";
+}
+.vcard dl.alt-layout dt.email-label {
+	grid-area: dt1;
+}
+.vcard dl.alt-layout dd.email {
+	grid-area: dd1;
+}
+.vcard dl.alt-layout dt.tel-label {
+	grid-area: dt2;
+}
+.vcard dl.alt-layout dd.tel {
+	grid-area: dd2;
+}
+.vcard dl.alt-layout dt.url-label {
+	grid-area: dt3;
+}
+.vcard dl.alt-layout dd.url {
+	grid-area: dd3;
+}
+.vcard dl.alt-layout dt.adr-label {
+	grid-area: dt4;
+}
+.vcard dl.alt-layout dd.adr-container {
+	grid-area: dd4;
+}
+.vcard dl dt,
+.vcard dl dd {
+	width: auto;
+	margin-bottom: 0;
+}
+.vcard + h2 {
+	margin-top: 0;
 }
 @media screen and (min-width: 680px) {
-	.vcard {
-		position: relative;
-	}
 	.vcard dl {
 		display: grid;
-		grid-template-columns: repeat(3, 55px 1fr);
+		grid-template-columns: 25px 1fr repeat(2, 55px 1fr);
 		margin-bottom: 0.6em;
 	}
 	.vcard dl.alt-layout {
-		grid-template-columns: 55px 3fr 55px 2fr;
+		grid-template-columns: 25px 4fr 55px 3fr;
 		grid-template-rows: repeat(3, 1fr);
 		grid-template-areas: "dt1 dd1 dt4 dd4" "dt2 dd2 dt4 dd4" "dt3 dd3 dt4 dd4";
-	}
-	.vcard dl.alt-layout dt.email-label {
-		grid-area: dt1;
-	}
-	.vcard dl.alt-layout dd.email {
-		grid-area: dd1;
-	}
-	.vcard dl.alt-layout dt.tel-label {
-		grid-area: dt2;
-	}
-	.vcard dl.alt-layout dd.tel {
-		grid-area: dd2;
-	}
-	.vcard dl.alt-layout dt.url-label {
-		grid-area: dt3;
-	}
-	.vcard dl.alt-layout dd.url {
-		grid-area: dd3;
-	}
-	.vcard dl.alt-layout dt.adr-label {
-		grid-area: dt4;
-	}
-	.vcard dl.alt-layout dd.adr-container {
-		grid-area: dd4;
-	}
-	.vcard dl dt,
-	.vcard dl dd {
-		width: auto;
-		margin-bottom: 0;
-	}
-	.vcard + h2 {
-		margin-top: 0;
 	}
 }
 @media print {
