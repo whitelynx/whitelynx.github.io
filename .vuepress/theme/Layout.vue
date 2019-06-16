@@ -198,7 +198,7 @@ section > .content__default > p:last-child {
 
 @media screen and (min-width: 680px) {
 	header {
-		padding: 10% 0 0;
+		padding: 8% 0 0;
 	}
 	header nav, header .vcard {
 		width: 680px;
@@ -227,7 +227,7 @@ section > .content__default > p:last-child {
 
 @media screen and (min-width: 1133px) {
 	header {
-		padding: 10% 20% 0;
+		padding: 8% 20% 0;
 	}
 	header nav, header .vcard {
 		width: auto;
