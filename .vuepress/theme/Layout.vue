@@ -169,10 +169,12 @@ header + section {
 	border-radius: 0 0 4px 4px;
 }
 
-section > p:first-child {
+section > p:first-child,
+section > .content__default > p:first-child {
 	margin-top: 0;
 }
-section > p:last-child {
+section > p:last-child,
+section > .content__default > p:last-child {
 	margin-bottom: 0;
 }
 
