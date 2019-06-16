@@ -155,7 +155,7 @@ header nav a:link, header nav a:visited {
     flex: 0 1 auto;
     align-self: auto;
 	margin: 0;
-	padding: 0.5em 1em;
+	padding: 0.5em 0;
 	color: #eee;
 	background: rgba(0, 0, 0, 0.25);
 	border-top: 2px solid transparent;
@@ -180,6 +180,7 @@ section {
 	margin: 0 0 2rem;
 	padding: 1rem;
 	background: rgba(40, 44, 40, 0.5);
+	box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.35);
 }
 header + section {
 	border-top-left-radius: 0;
@@ -214,12 +215,12 @@ section > .content__default > p:last-child {
 	}
 	header nav a:link, header nav a:visited {
 		margin: 0 0 0 1em;
+		padding: 0.5em 1em;
 	}
 
 	section {
 		margin: 0 auto 2rem;
 		width: 680px;
-		box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.35);
 		border-radius: 4px;
 	}
 }
