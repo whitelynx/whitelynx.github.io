@@ -52,6 +52,7 @@
 
 		<section>
 			<Content/>
+			<div class="clear"></div>
 		</section>
 	</article>
 </template>
@@ -104,6 +105,10 @@ h1:first-child {
 code, kbd, pre, samp {
     font-family: 'Oxygen Mono';
     font-size: 0.8em;
+}
+
+.clear {
+	clear: both;
 }
 
 header:before {
