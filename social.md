@@ -27,4 +27,8 @@ order: 3
 		<i class="fab fa-linkedin"></i>
 		LinkedIn
 	</a>
+	<a href="https://soundcloud.com/dbronke">
+		<i class="fab fa-soundcloud"></i>
+		SoundCloud
+	</a>
 </div>

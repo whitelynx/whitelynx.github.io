@@ -276,6 +276,9 @@ section > .content__default > p:last-child {
 .grid > a:hover > i.fa-linkedin, .grid > a:focus > i.fa-linkedin {
 	color: #0073b1;
 }
+.grid > a:hover > i.fa-soundcloud, .grid > a:focus > i.fa-soundcloud {
+	color: #ff5500;
+}
 
 
 dl {
