@@ -247,8 +247,13 @@ section > .content__default > p:last-child {
 
 .grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-gap: 1rem;
+}
+@media screen and (min-width: 680px) {
+	.grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 .grid > a {
 	background: rgba(0, 0, 0, 0.5);
