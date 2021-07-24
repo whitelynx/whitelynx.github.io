@@ -10,7 +10,7 @@ order: 1
 [Bullet Physics]: http://bulletphysics.org/wordpress/
 [CannonJS]: http://www.cannonjs.org/
 [Censh]: https://hackaday.io/project/157460-censh
-[Coconut Web Browser]: https://bitbucket.org/whitelynx/coconut
+[Coconut Web Browser]: https://osdn.net/projects/coconut/
 [Crystal Space]: http://www.crystalspace3d.org/
 [CVS]: http://www.nongnu.org/cvs/
 [D3]: https://d3js.org/
@@ -19,7 +19,7 @@ order: 1
 [Erlang]: http://www.erlang.org/
 [fttpwm]: https://bitbucket.org/whitelynx/fttpwm
 [Go]: https://golang.org/
-[GoRtAudio]: https://bitbucket.org/whitelynx/gortaudio
+[GoRtAudio]: https://github.com/whitelynx/gortaudio
 [Horde3D]: http://www.horde3d.org/
 [Karvy]: https://github.com/whitelynx/karvy
 [Kivy]: https://kivy.org/
