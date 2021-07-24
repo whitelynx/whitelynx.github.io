@@ -9,6 +9,7 @@ order: 2
 [ArchLinux]: https://www.archlinux.org/
 [ARMtech Insurance Services, Inc.]: http://armt.com/
 [Atom]: https://atom.io/
+[AWS]: https://aws.amazon.com/
 [BabylonJS]: https://www.babylonjs.com/
 [Bazaar]: http://bazaar.canonical.com/en/
 [BlueZ]: http://www.bluez.org/
@@ -44,6 +45,7 @@ order: 2
 [Kibana]: https://www.elastic.co/products/kibana
 [Kivy]: https://kivy.org/
 [Koa]: http://koajs.in/
+[Kubernetes]: https://kubernetes.io/
 [Leaflet]: http://leafletjs.com/
 [Logstash]: https://www.elastic.co/products/logstash
 [Manjaro]: https://manjaro.org/
@@ -88,6 +90,7 @@ order: 2
 [Riak KV]: http://basho.com/products/riak-kv/
 [Riot.js]: http://riotjs.com/
 [RtAudio]: http://www.music.mcgill.ca/~gary/rtaudio/
+[S3]: https://aws.amazon.com/s3/
 [Semantic UI]: http://semantic-ui.com/
 [Slackware]: http://www.slackware.com/
 [Spark]: https://spark.apache.org/
@@ -127,7 +130,7 @@ Professional Experience:
 
 [Neighborly][] _Senior Software Engineer<br>(October 2018 - June 2019)_
   ~ Helping architect and implement scalable data platform and <abbr title="extract, transform, load">ETL</abbr> pipelines.
-  ~ _Technologies: Linux, [Spark][], [Airflow][], [Python][], [Pandas][], [Go][], [Git][]_
+  ~ _Technologies: Linux, [Spark][], [Airflow][], [Python][], [Pandas][], [Go][], [Git][], [Docker][], [Kubernetes][], [AWS][], [S3][]_
 
 [NewStore, Inc.][] _Solutions Engineer<br>(August 2016 - September 2018)_
   ~ Customizing mobile apps and document templates for customers.
