@@ -18,7 +18,7 @@ order: 2
 [CannonJS]: http://www.cannonjs.org/
 [Censh]: https://hackaday.io/project/157460-censh
 [CentOS]: https://www.centos.org/
-[Coconut Web Browser]: https://bitbucket.org/whitelynx/coconut
+[Coconut Web Browser]: https://osdn.net/projects/coconut/
 [Crystal Space]: http://www.crystalspace3d.org/
 [CVS]: http://www.nongnu.org/cvs/
 [D3]: https://d3js.org/
@@ -34,7 +34,7 @@ order: 2
 [Gentoo]: https://www.gentoo.org/
 [Git]: http://git-scm.com/
 [Go]: https://golang.org/
-[GoRtAudio]: https://bitbucket.org/whitelynx/gortaudio
+[GoRtAudio]: https://github.com/whitelynx/gortaudio
 [Grafana]: https://grafana.com/
 [Horde3D]: http://www.horde3d.org/
 [Jinja]: http://jinja.pocoo.org/
