@@ -30,7 +30,7 @@ order: 2
 [Erlang]: http://www.erlang.org/
 [ES2015]: https://www.ecma-international.org/ecma-262/6.0/
 [Express]: http://expressjs.com/
-[fttpwm]: https://bitbucket.org/whitelynx/fttpwm
+[fttpwm]: https://osdn.net/projects/fttpwm/
 [Gentoo]: https://www.gentoo.org/
 [Git]: http://git-scm.com/
 [Go]: https://golang.org/

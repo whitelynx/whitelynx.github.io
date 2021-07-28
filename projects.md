@@ -17,7 +17,7 @@ order: 1
 [D-Bus]: https://www.freedesktop.org/wiki/Software/dbus/
 [Electron]: http://electron.atom.io/
 [Erlang]: http://www.erlang.org/
-[fttpwm]: https://bitbucket.org/whitelynx/fttpwm
+[fttpwm]: https://osdn.net/projects/fttpwm/
 [Go]: https://golang.org/
 [GoRtAudio]: https://github.com/whitelynx/gortaudio
 [Horde3D]: http://www.horde3d.org/
