@@ -147,7 +147,7 @@ Professional Experience:
 [<abbr title="State University of New York">SUNY</abbr> Fredonia ResNet][SUNY Fredonia ResNet] _System Administrator<br>(June 2007 - December 2008)_
   ~ Setting up and maintaining Linux servers for the residential network.
   ~ _Technologies: Linux, PHP, DHCPD_
-  <!--~ **Residential Computer Consultant**: _October 2004 - January 2006_
+<!--  ~ **Residential Computer Consultant**: _October 2004 - January 2006_
   ~ Repairing student computers.-->
 
 [<abbr title="State University of New York">SUNY</abbr> Fredonia <abbr title="Computer and Information Sciences">CIS</abbr> Department][SUNY Fredonia Computer and Information Sciences Department] _Student system administrator<br>(September 2006 - December 2008)_
