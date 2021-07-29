@@ -65,7 +65,7 @@ Gloomy Crossbow _Creator, lead developer<br>(June 2019 - present)_
   ~ _Platform: Linux ([Raspberry Pi][])_
   ~ _Technologies: [Python][], [Kivy][], [D-Bus][], [BlueZ][], [PulseAudio][]_
 
-[QueryTron][] _Creator, lead developer<br>(November 2015 - Spring 2016)_
+[QueryTron][] _Creator, lead developer<br>(November 2015 - present)_
   ~ A multi-database query tool with geospatial and query plan visualizations.
   ~ _Platform: Windows, Linux ([X11][])_
   ~ _Technologies: [Electron][], [Vue.js][], [Node.js][], [Leaflet][], [D3][], [UIkit][]_
