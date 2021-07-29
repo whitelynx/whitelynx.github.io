@@ -3,15 +3,13 @@
 # abort on errors
 set -e
 
-cd .vuepress
-rm -r dist
-git clone -b master $(git remote get-url origin) dist
-cd ..
-
 # build
 npm run build
 
-cd .vuepress/dist
+cd .vuepress
+[ -d master/.git ] || git clone -b master $(git remote get-url origin) master
+cd master
+cp -rv ../dist/* .
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
