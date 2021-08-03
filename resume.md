@@ -37,6 +37,7 @@ order: 2
 [GoRtAudio]: https://github.com/whitelynx/gortaudio
 [Grafana]: https://grafana.com/
 [Horde3D]: http://www.horde3d.org/
+[Jenkins]: https://jenkins.io/
 [Jinja]: http://jinja.pocoo.org/
 [JIRA]: https://www.atlassian.com/software/jira
 [Kantonsschule Olten]: https://www.kantiolten.ch/
