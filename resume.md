@@ -129,16 +129,19 @@ Professional Experience:
 ------------------------
 
 [Neighborly][] _Senior Software Engineer<br>(October 2018 - June 2019)_
-  ~ Helping architect and implement scalable data platform and <abbr title="extract, transform, load">ETL</abbr> pipelines.
-  ~ _Technologies: Linux, [Spark][], [Airflow][], [Python][], [Pandas][], [Go][], [Git][], [Docker][], [Kubernetes][], [AWS][], [S3][]_
+  ~ Helping architect and implement scalable data platform, migrating existing <abbr title="extract, transform, load">ETL</abbr> from Go scripts to Spark and Airflow, and implementing complex new ETL pipelines.
+  ~ _Technologies: Linux, [Spark][], [Airflow][], [Python][], [Pandas][], [Go][], [Git][], [Docker][], [Kubernetes][], [AWS][], [S3][], [Jenkins][]_
+<!--  ~ Helping architect and implement scalable data platform and <abbr title="extract, transform, load">ETL</abbr> pipelines.-->
 
 [NewStore, Inc.][] _Solutions Engineer<br>(August 2016 - September 2018)_
-  ~ Customizing mobile apps and document templates for customers.
+  ~ Designing new mobile app and underlying SDK, improving document template rendering system, and customizing mobile apps and document templates for customers.
   ~ _Technologies: Linux, MacOS, [React Native][], [Redux][], iOS / Swift / Objective-C, [Jinja][], [Python][], [Node.js][], [Go][], [Git][]_
+<!--  ~ Customizing mobile apps and document templates for customers.-->
 
 [ARMtech Insurance Services, Inc.][] _Business Application Developer and Spatial Specialist<br>(October 2012 - July 2016)_
-  ~ Creating microservices and <abbr title="geographic information system">GIS</abbr> data import tools for web-based mapping app.
+  ~ Designing and implementing microservices, core service communication library, and <abbr title="geographic information system">GIS</abbr> data import tools for web-based mapping app. Also assembled centralized service logging system, and designed and implemented template-based PDF rendering service.
   ~ _Technologies: Linux, [Node.js][], [Python][], [Docker][], [Redis][], [ElasticSearch][], [Logstash][], [Kibana][], [Grafana][], [Jinja][], [MS SQL Server][], [PostgreSQL][], [SQLite][], [PostGIS][], [SpatiaLite][], [OpenLayers][], [Leaflet][], [Turf.js][], [MBTiles][], [TMS][], [WMS][], [WFS][], C#, WPF, ASP.NET, <abbr title="Entity Framework">EF</abbr>, LINQ, [Git][]_
+<!--  ~ Creating microservices and <abbr title="geographic information system">GIS</abbr> data import tools for web-based mapping app.-->
 
 [kgb][] _Developer<br>(February 2009 - October 2012)_
   ~ Developing next-gen data access layer and telephony multiplexing service.
@@ -164,7 +167,6 @@ Invoke Systems _Junior Software Developer<br>(2005 - 2006)_
 
 
 <!--
-
 Skills:
 -------
 
