@@ -37,6 +37,7 @@ order: 2
 [GoRtAudio]: https://github.com/whitelynx/gortaudio
 [Grafana]: https://grafana.com/
 [Horde3D]: http://www.horde3d.org/
+[Indigo Ag, Inc.]: https://www.indigoag.com/
 [Jenkins]: https://jenkins.io/
 [Jinja]: http://jinja.pocoo.org/
 [JIRA]: https://www.atlassian.com/software/jira
@@ -66,6 +67,7 @@ order: 2
 [omega-logger]: https://github.com/whitelynx/web-pgq
 [OpenLayers]: http://openlayers.org/
 [Oracle]: http://www.oracle.com/
+[Oracle ERP]: https://www.oracle.com/erp/
 [Panda3D]: http://www.panda3d.org/
 [Pandas]: https://pandas.pydata.org/
 [PLWM]: http://plwm.sourceforge.net
@@ -91,9 +93,11 @@ order: 2
 [Riak KV]: http://basho.com/products/riak-kv/
 [Riot.js]: http://riotjs.com/
 [RtAudio]: http://www.music.mcgill.ca/~gary/rtaudio/
+[Ruby on Rails]: https://rubyonrails.org/
 [S3]: https://aws.amazon.com/s3/
 [Semantic UI]: http://semantic-ui.com/
 [Slackware]: http://www.slackware.com/
+[Snowflake]: https://www.snowflake.com/
 [Spark]: https://spark.apache.org/
 [SpatiaLite]: https://www.gaia-gis.it/fossil/libspatialite/index
 [SQLite]: https://sqlite.org/
@@ -129,13 +133,17 @@ order: 2
 Professional Experience:
 ------------------------
 
+[Indigo Ag, Inc.][] _Principal Software Engineer<br>(July 2019 - present)_
+  ~ Building internal administration/monitoring UIs for data platform and financial platform, migrating financial integrations to Python, participating in architecture planning.
+  ~ _Technologies: [Snowflake][], [Python][], [React][], [Ruby on Rails][], [Git][], [Docker][], [AWS][], [S3][], [Oracle ERP][]_
+
 [Neighborly][] _Senior Software Engineer<br>(October 2018 - June 2019)_
   ~ Helping architect and implement scalable data platform, migrating existing <abbr title="extract, transform, load">ETL</abbr> from Go scripts to Spark and Airflow, and implementing complex new ETL pipelines.
   ~ _Technologies: Linux, [Spark][], [Airflow][], [Python][], [Pandas][], [Go][], [Git][], [Docker][], [Kubernetes][], [AWS][], [S3][], [Jenkins][]_
 <!--  ~ Helping architect and implement scalable data platform and <abbr title="extract, transform, load">ETL</abbr> pipelines.-->
 
 [NewStore, Inc.][] _Solutions Engineer<br>(August 2016 - September 2018)_
-  ~ Designing new mobile app and underlying SDK, improving document template rendering system, and customizing mobile apps and document templates for customers.
+  ~ Designing new mobile app and underlying SDK, improving document rendering system, and customizing mobile apps and document templates for customers.
   ~ _Technologies: Linux, MacOS, [React Native][], [Redux][], iOS / Swift / Objective-C, [Jinja][], [Python][], [Node.js][], [Go][], [Git][]_
 <!--  ~ Customizing mobile apps and document templates for customers.-->
 
