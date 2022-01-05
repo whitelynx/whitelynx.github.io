@@ -41,7 +41,7 @@ order: 2
 [Jenkins]: https://jenkins.io/
 [Jinja]: http://jinja.pocoo.org/
 [JIRA]: https://www.atlassian.com/software/jira
-[Kantonsschule Olten]: https://www.kantiolten.ch/
+[Kantonsschule Olten]: https://kantiolten.so.ch/
 [Karvy]: https://github.com/whitelynx/karvy
 [kgb]: http://www.kgb.com/
 [Kibana]: https://www.elastic.co/products/kibana
@@ -58,13 +58,13 @@ order: 2
 [MongoDB]: https://www.mongodb.com/
 [MS SQL Server]: http://www.microsoft.com/sqlserver/
 [MySQL]: https://www.mysql.com/
-[Neighborly]: https://neighborly.com/
 [NeoVim]: https://neovim.io/
 [NewStore, Inc.]: https://www.newstore.com/
 [Node.js]: https://nodejs.org/
 [ODE]: http://ode.org/
 [OGRE]: https://www.ogre3d.org/
 [omega-logger]: https://github.com/whitelynx/web-pgq
+[OneFor Holding GmbH]: https://www.onefor.com/
 [OpenLayers]: http://openlayers.org/
 [Oracle]: http://www.oracle.com/
 [Oracle ERP]: https://www.oracle.com/erp/
@@ -95,6 +95,7 @@ order: 2
 [RtAudio]: http://www.music.mcgill.ca/~gary/rtaudio/
 [Ruby on Rails]: https://rubyonrails.org/
 [S3]: https://aws.amazon.com/s3/
+[Saint Francis High School]: https://www.stfrancishigh.org/
 [Semantic UI]: http://semantic-ui.com/
 [Slackware]: http://www.slackware.com/
 [Snowflake]: https://www.snowflake.com/
@@ -102,6 +103,7 @@ order: 2
 [SpatiaLite]: https://www.gaia-gis.it/fossil/libspatialite/index
 [SQLite]: https://sqlite.org/
 [Subversion]: https://subversion.apache.org/
+[SUNY Fredonia]: https://www.fredonia.edu/
 [SUNY Fredonia Computer and Information Sciences Department]: http://home.fredonia.edu/cis
 [SUNY Fredonia ResNet]: http://home.fredonia.edu/its/resnet
 [three.js]: https://threejs.org/
@@ -123,7 +125,7 @@ order: 2
 [X11]: https://www.wikiwand.com/en/X_Window_System
 
 
-- Motivated, self-taught developer with a love for learning and playing with new technologies.
+- Motivated, self-taught developer with a love for learning new technologies.
 - Enthusiastic about collaboration and mentoring.
 - Extensive experience in full-stack web development, open source projects, microservices, and tool building.
 <!--- Hobby projects in open-source projects, video games, music software, and embedded development.-->
@@ -133,11 +135,14 @@ order: 2
 Professional Experience:
 ------------------------
 
-[Indigo Ag, Inc.][] _Principal Software Engineer<br>(July 2019 - present)_
+[OneFor Holding GmbH][] _Principal Software Engineer<br>(January 2022 - present)_
+  ~ _Technologies: Linux, [Node.js][], [React Native][]_
+
+[Indigo Ag, Inc.][] _Principal Software Engineer<br>(July 2019 - November 2021)_
   ~ Building internal administration/monitoring UIs for data platform and financial platform, migrating financial integrations to Python, participating in architecture planning.
   ~ _Technologies: [Snowflake][], [Python][], [React][], [Ruby on Rails][], [Git][], [Docker][], [AWS][], [S3][], [Oracle ERP][]_
 
-[Neighborly][] _Senior Software Engineer<br>(October 2018 - June 2019)_
+Neighborly _Senior Software Engineer<br>(October 2018 - June 2019)_
   ~ Helping architect and implement scalable data platform, migrating existing <abbr title="extract, transform, load">ETL</abbr> from Go scripts to Spark and Airflow, and implementing complex new ETL pipelines.
   ~ _Technologies: Linux, [Spark][], [Airflow][], [Python][], [Pandas][], [Go][], [Git][], [Docker][], [Kubernetes][], [AWS][], [S3][], [Jenkins][]_
 <!--  ~ Helping architect and implement scalable data platform and <abbr title="extract, transform, load">ETL</abbr> pipelines.-->
@@ -148,7 +153,7 @@ Professional Experience:
 <!--  ~ Customizing mobile apps and document templates for customers.-->
 
 [ARMtech Insurance Services, Inc.][] _Business Application Developer and Spatial Specialist<br>(October 2012 - July 2016)_
-  ~ Designing and implementing microservices, core service communication library, and <abbr title="geographic information system">GIS</abbr> data import tools for web-based mapping app. Also assembled centralized service logging system, and designed and implemented template-based PDF rendering service.
+  ~ Designing and implementing microservices, core message bus library, and <abbr title="geographic information system">GIS</abbr> data import tools for web-based mapping app. Also assembled centralized service logging system, and designed and implemented template-based PDF rendering service.
   ~ _Technologies: Linux, [Node.js][], [Python][], [Docker][], [Redis][], [ElasticSearch][], [Logstash][], [Kibana][], [Grafana][], [Jinja][], [MS SQL Server][], [PostgreSQL][], [SQLite][], [PostGIS][], [SpatiaLite][], [OpenLayers][], [Leaflet][], [Turf.js][], [MBTiles][], [TMS][], [WMS][], [WFS][], C#, WPF, ASP.NET, <abbr title="Entity Framework">EF</abbr>, LINQ, [Git][]_
 <!--  ~ Creating microservices and <abbr title="geographic information system">GIS</abbr> data import tools for web-based mapping app.-->
 
@@ -166,7 +171,7 @@ Professional Experience:
   ~ Administering Linux servers and lab machines for the <abbr title="Computer and Information Sciences">CIS</abbr> department.
   ~ _Technologies: Linux, PHP, [Oracle][] installation, LDAP / <abbr title="Active Directory">AD</abbr> authentication, [Subversion][]_
 
-Ascentium _(previously Invoke Systems)<br>Developer<br>(August 2008 - November 2008)_
+Ascentium _Developer<br>(August 2008 - November 2008)_
   ~ Performing customizations of [Microsoft CRM][] instances.
   ~ _Technologies: Windows, C#_
 
@@ -259,15 +264,15 @@ Frameworks and Libraries
 Hobby Projects:
 ---------------
 
-[Censh][] / [Karvy][] _Creator, lead developer<br>(April 2018 - present)_
-  ~ A <abbr title="do-it-yourself">DIY</abbr> car entertainment / navigation system, and the <abbr title="user interface">UI</abbr> for it.
-  ~ _Platform: Linux ([Raspberry Pi][])_
-  ~ _Technologies: [Python][], [Kivy][], [D-Bus][], [BlueZ][], [PulseAudio][]_
-
 [QueryTron][] _Creator, lead developer<br>(November 2015 - present)_
   ~ A multi-database query tool with geospatial and query plan visualizations.
   ~ _Platform: Windows, Linux ([X11][])_
   ~ _Technologies: [Electron][], [Vue.js][], [Node.js][], [Leaflet][], [D3][], [UIkit][]_
+
+[Censh][] / [Karvy][] _Creator, lead developer<br>(April 2018 - present)_
+  ~ A <abbr title="do-it-yourself">DIY</abbr> car entertainment / navigation system, and the <abbr title="user interface">UI</abbr> for it.
+  ~ _Platform: Linux ([Raspberry Pi][])_
+  ~ _Technologies: [Python][], [Kivy][], [D-Bus][], [BlueZ][], [PulseAudio][]_
 
 [omega-logger][] _Creator, lead developer<br>(May 2013 - Spring 2016)_
   ~ A simple and powerful logger for [Node.js][] inspired by [Python's `logging` module][].
@@ -319,11 +324,14 @@ Hobby Projects:
 Education:
 ----------
 
-<abbr title="State University of New York">SUNY</abbr> Fredonia _(2004 - 2008)_
+[<abbr title="State University of New York">SUNY</abbr> Fredonia][SUNY Fredonia] _(2004 - 2008)_
   ~ Major in Computer Science.
 
-Exchange year in Switzerland _(2001 - 2002)_
-  ~ Attended [Kantonsschule Olten][] for a year during high school; learned Swiss German.
+[Kantonsschule Olten][] _(2001 - 2002)_
+  ~ Spent a year in Switzerland as an exchange student during high school; learned Swiss German.
+
+[Saint Francis High School][] _(1998 - 2003)_
+  ~ Graduated with honors.
 
 Languages
   ~ English _(native language)_
