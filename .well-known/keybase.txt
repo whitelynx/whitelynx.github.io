@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/codermonkeyfuel
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://whitelynx.github.io
+  * I am codermonkeyfuel (https://keybase.io/codermonkeyfuel) on keybase.
+  * I have a public key ASDPdPVj4XVFdKpXx3T75SuIfyHdFUMTzKXO1D9fCHVo-wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fe919e8b4fabe0a1069c17f366ebbe4cbc5937f07582907dcc78e9e82624cfe00a",
+      "host": "keybase.io",
+      "kid": "0120cf74f563e1754574aa57c774fbe52b887f21dd154313cca5ced43f5f087568fb0a",
+      "uid": "3e77b756734bb705c113b0b4e84c3019",
+      "username": "codermonkeyfuel"
+    },
+    "merkle_root": {
+      "ctime": 1649339956,
+      "hash": "72670e855e7adde5346b21e278728ff8d92e60557979ae526c93ed77347b421ea35cfe18ea76b2d23cde6c688b98826697f4d47927e7ea878d8bc838c3328097",
+      "hash_meta": "d175ebc58dccbcecea120755c72cb280fc1dda28cb1dab89f93306033ae61bd2",
+      "seqno": 22250434
+    },
+    "service": {
+      "entropy": "q6gjaD3ZRO6dZzGkb62lfLk0",
+      "hostname": "whitelynx.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.3"
+  },
+  "ctime": 1649340018,
+  "expire_in": 504576000,
+  "prev": "bbf7afd917b12c428307a738588e3f19b28336ba66d1ec6afc0ed41755208a1c",
+  "seqno": 31,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgz3T1Y+F1RXSqV8d0++UriH8h3RVDE8ylztQ/Xwh1aPsKp3BheWxvYWTESpcCH8Qgu/ev2RexLEKDB6c4WI4/GbKDNrpm0exq/A7UF1UgihzEIBJE7KYVQsjXEhE069Wzawf3/oTQZIq40GFfq6kLrM/QAgHCo3NpZ8RAlT+tuMjlvdTPsmLvIqxChOxw7TjUOcYEebfWJf279NVJZfR7mWQig+6L83vzoZCrFBn8p0EB/Kx8gy/6bqmkD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHPoR2pjoslpTVQkVrgbBSIa6wXf10f6mHOzXp70ik8Qo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/codermonkeyfuel
+
+==================================================================
