@@ -265,7 +265,7 @@ section > .content__default > p:last-child {
 }
 .grid > a > i, .grid > a > svg {
 	display: block;
-	fill: #fff;
+	fill: #eeffee;
 	font-size: 5em;
 	width: 80px;
 	text-decoration: none;
@@ -283,6 +283,12 @@ section > .content__default > p:last-child {
 }
 .grid > a:hover > i.fa-soundcloud, .grid > a:focus > i.fa-soundcloud {
 	color: #ff5500;
+}
+.grid > a:hover > svg.social-hackaday-svg path, .grid > a:focus > svg.social-hackaday-svg path {
+	fill: #fff;
+}
+.grid > a:hover > svg.social-osdn-svg path, .grid > a:focus > svg.social-osdn-svg path {
+	fill: #5da545;
 }
 
 
