@@ -45,4 +45,8 @@ order: 3
 		<i class="fab fa-soundcloud"></i>
 		SoundCloud
 	</a>
+	<a href="https://www.youtube.com/channel/UCv0t_sk50kSYLfl_7j16Gkw">
+		<i class="fab fa-youtube"></i>
+		YouTube
+	</a>
 </div>
