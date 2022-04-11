@@ -278,17 +278,26 @@ section > .content__default > p:last-child {
 .grid > a:hover > i.fa-gitlab, .grid > a:focus > i.fa-gitlab {
 	color: #e65328;
 }
-.grid > a:hover > i.fa-linkedin, .grid > a:focus > i.fa-linkedin {
-	color: #0073b1;
-}
-.grid > a:hover > i.fa-soundcloud, .grid > a:focus > i.fa-soundcloud {
-	color: #ff5500;
+.grid > a:hover > svg.social-osdn-svg path, .grid > a:focus > svg.social-osdn-svg path {
+	fill: #5da545;
 }
 .grid > a:hover > svg.social-hackaday-svg path, .grid > a:focus > svg.social-hackaday-svg path {
 	fill: #fff;
 }
-.grid > a:hover > svg.social-osdn-svg path, .grid > a:focus > svg.social-osdn-svg path {
-	fill: #5da545;
+.grid > a:hover > i.fa-linkedin, .grid > a:focus > i.fa-linkedin {
+	color: #0073b1;
+}
+.grid > a > i.fa-soundcloud {
+	width: 100px;
+}
+.grid > a:hover > i.fa-soundcloud, .grid > a:focus > i.fa-soundcloud {
+	color: #ff5500;
+}
+.grid > a > i.fa-youtube {
+	width: 90px;
+}
+.grid > a:hover > i.fa-youtube, .grid > a:focus > i.fa-youtube {
+	color: #ff0000;
 }
 
 
