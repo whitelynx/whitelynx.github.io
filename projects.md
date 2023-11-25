@@ -60,11 +60,6 @@ Gloomy Crossbow _Creator, lead developer<br>(June 2019 - present)_
   ~ _Platforms: Windows, Linux ([X11][]), MacOS, etc._
   ~ _Technologies: [Unreal Engine][]_
 
-[Censh][] / [Karvy][] _Creator, lead developer<br>(April 2018 - present)_
-  ~ A <abbr title="do-it-yourself">DIY</abbr> car entertainment / navigation system, and the <abbr title="user interface">UI</abbr> for it.
-  ~ _Platform: Linux ([Raspberry Pi][])_
-  ~ _Technologies: [Python][], [Kivy][], [D-Bus][], [BlueZ][], [PulseAudio][]_
-
 [QueryTron][] _Creator, lead developer<br>(November 2015 - present)_
   ~ A multi-database query tool with geospatial and query plan visualizations.
   ~ _Platform: Windows, Linux ([X11][])_
@@ -73,6 +68,11 @@ Gloomy Crossbow _Creator, lead developer<br>(June 2019 - present)_
 
 Old / Unmaintained
 ------------------
+
+[Censh][] / [Karvy][] _Creator, lead developer<br>(April 2018 - March 2020)_
+  ~ A <abbr title="do-it-yourself">DIY</abbr> car entertainment / navigation system, and the <abbr title="user interface">UI</abbr> for it.
+  ~ _Platform: Linux ([Raspberry Pi][])_
+  ~ _Technologies: [Python][], [Kivy][], [D-Bus][], [BlueZ][], [PulseAudio][]_
 
 [omega-logger][] _Creator, lead developer<br>(May 2013 - Spring 2016)_
   ~ A simple and powerful logger for [Node.js][] inspired by [Python's `logging` module][].
