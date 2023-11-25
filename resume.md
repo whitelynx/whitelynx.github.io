@@ -128,34 +128,29 @@ order: 2
 - Motivated, self-taught developer with a love for learning new technologies.
 - Enthusiastic about collaboration and mentoring.
 - Extensive experience in full-stack web development, open source projects, microservices, and tool building.
-<!--- Hobby projects in open-source projects, video games, music software, and embedded development.-->
-<!--- Searching for a position in northern Europe.-->
 
 
 Professional Experience:
 ------------------------
 
 [OneFor Holding GmbH][] _Principal Software Engineer<br>(January 2022 - present)_
-  ~ _Technologies: Linux, [Node.js][], [React Native][]_
+  ~ _Technologies: Linux, [Git][], [Docker][], [AWS][], [Erlang][], [Node.js][], [React Native][]_
 
 [Indigo Ag, Inc.][] _Principal Software Engineer<br>(July 2019 - November 2021)_
   ~ Building internal administration/monitoring UIs for data platform and financial platform, migrating financial integrations to Python, participating in architecture planning.
   ~ _Technologies: [Snowflake][], [Python][], [React][], [Ruby on Rails][], [Git][], [Docker][], [AWS][], [S3][], [Oracle ERP][]_
 
-Neighborly _Senior Software Engineer<br>(October 2018 - June 2019)_
+Neighborly (out of business) _Senior Software Engineer<br>(October 2018 - June 2019)_
   ~ Helping architect and implement scalable data platform, migrating existing <abbr title="extract, transform, load">ETL</abbr> from Go scripts to Spark and Airflow, and implementing complex new ETL pipelines.
   ~ _Technologies: Linux, [Spark][], [Airflow][], [Python][], [Pandas][], [Go][], [Git][], [Docker][], [Kubernetes][], [AWS][], [S3][], [Jenkins][]_
-<!--  ~ Helping architect and implement scalable data platform and <abbr title="extract, transform, load">ETL</abbr> pipelines.-->
 
 [NewStore, Inc.][] _Solutions Engineer<br>(August 2016 - September 2018)_
   ~ Designing new mobile app and underlying SDK, improving document rendering system, and customizing mobile apps and document templates for customers.
   ~ _Technologies: Linux, MacOS, [React Native][], [Redux][], iOS / Swift / Objective-C, [Jinja][], [Python][], [Node.js][], [Go][], [Git][]_
-<!--  ~ Customizing mobile apps and document templates for customers.-->
 
 [ARMtech Insurance Services, Inc.][] _Business Application Developer and Spatial Specialist<br>(October 2012 - July 2016)_
   ~ Designing and implementing microservices, core message bus library, and <abbr title="geographic information system">GIS</abbr> data import tools for web-based mapping app. Also assembled centralized service logging system, and designed and implemented template-based PDF rendering service.
   ~ _Technologies: Linux, [Node.js][], [Python][], [Docker][], [Redis][], [ElasticSearch][], [Logstash][], [Kibana][], [Grafana][], [Jinja][], [MS SQL Server][], [PostgreSQL][], [SQLite][], [PostGIS][], [SpatiaLite][], [OpenLayers][], [Leaflet][], [Turf.js][], [MBTiles][], [TMS][], [WMS][], [WFS][], C#, WPF, ASP.NET, <abbr title="Entity Framework">EF</abbr>, LINQ, [Git][]_
-<!--  ~ Creating microservices and <abbr title="geographic information system">GIS</abbr> data import tools for web-based mapping app.-->
 
 [kgb][] _Developer<br>(February 2009 - October 2012)_
   ~ Developing next-gen data access layer and telephony multiplexing service.
@@ -164,8 +159,6 @@ Neighborly _Senior Software Engineer<br>(October 2018 - June 2019)_
 [<abbr title="State University of New York">SUNY</abbr> Fredonia ResNet][SUNY Fredonia ResNet] _System Administrator<br>(June 2007 - December 2008)_
   ~ Setting up and maintaining Linux servers for the residential network.
   ~ _Technologies: Linux, PHP, DHCPD_
-<!--  ~ **Residential Computer Consultant**: _October 2004 - January 2006_
-  ~ Repairing student computers.-->
 
 [<abbr title="State University of New York">SUNY</abbr> Fredonia <abbr title="Computer and Information Sciences">CIS</abbr> Department][SUNY Fredonia Computer and Information Sciences Department] _Student system administrator<br>(September 2006 - December 2008)_
   ~ Administering Linux servers and lab machines for the <abbr title="Computer and Information Sciences">CIS</abbr> department.
@@ -180,84 +173,6 @@ Invoke Systems _Junior Software Developer<br>(2005 - 2006)_
   ~ _Technologies: Windows, C#, Visual Basic 6, Visual Basic .NET_
 
 
-<!--
-Skills:
--------
-
-Programming _(27 years)_
-  ~ Languages: JavaScript ([Node.js][], [React Native][], and browsers; [ES2015][]), [Python][], [Erlang][], C, C++, C#, [Go][], Visual Basic, Basic, Assembly (x86/PIC/MIPS)
-  ~ _API and service architecture, tool building, service monitoring, log analysis, GUI design, 3D rendering, game design, networking, accessibility, cross-platform development, modular design_
-
-Web Design _(18 years)_
-  ~ Languages/Standards: HTML5, CSS3, JavaScript, XHTML, PHP
-  ~ _Database backends and <abbr title="content management system">CMS</abbr> design; Standards-compliant and cross-browser design_
-
-3D Graphics _(18 years)_
-  ~ Engines: [Unreal Engine][], [BabylonJS][], [three.js][], [Panda3D][], [OGRE][], [Horde3D][]
-  ~ _Creating flight simulator, 1st/3rd-person <abbr title="role-playing game">RPG</abbr>, <abbr title="massively multiplayer online">MMO</abbr>, real-time strategy games_
-
-Geospatial Technology and Mapping _(4 years)_
-  ~ Frameworks: [PostGIS][], [SpatiaLite][], [OpenLayers][], [Leaflet][], [Turf.js][]
-  ~ Technologies: [MBTiles][], [TMS][], [WMS][], [WFS][]
-  ~ _Developing microservices to serve map data and web apps using mapping; Performing data import/export and optimization_
-
-Database Management _(9 years)_
-  ~ SQL: [PostgreSQL][], [SQLite][], [MySQL][], [MS SQL Server][], and [Oracle][]
-  ~ NoSQL: [RethinkDB][], [ElasticSearch][], [Riak KV][], [MongoDB][]
-  ~ _Designing, implementing, and maintaining databases; Writing database-backed applications and websites_
-
-Mobile App Development _(2 years)_
-  ~ Platforms: iOS, Android
-  ~ Frameworks: [React Native][], [Weex][]
-
-Agile/Scrum/Kanban _(9 years)_
-  ~ Tools: [JIRA][], [Waffle.io][], [Trello][]
-
-Embedded Platforms _(5 years)_
-  ~ Microcontrollers: PIC, Atmel, Arduino
-  ~ Embedded Linux
-  ~ Electronic prototyping
-
-Project Maintenance and Management _(12 years)_
-  ~ Project management/hosting systems: GitHub, GitLab, Trac, Redmine, EPIC
-  ~ Source control systems: [Git][], [Mercurial][], [Bazaar][], [Subversion][], [CVS][]
-
-System Administration _(11 years)_
-  ~ Virtual servers
-  ~ Web, database, service node, and source control servers
-  ~ Network administration
-
-Operating Systems
-  ~ Windows/DOS _(28 years)_; Linux _(17 years)_; MacOS X _(4 years)_
-
-Computer Repair _(5 years)_
-  ~ Virus and spyware removal
-  ~ Performance tuning
-  ~ Network troubleshooting
-
-
-Software Used:
---------------
-
-Tools
-  ~ [NeoVim][] / [Vim][] / Vi
-  ~ [Git][] / [GitHub][] / [GitLab][]
-  ~ JetBrains [WebStorm][] and [PyCharm][]
-  ~ [Microsoft Visual Studio][] versions 6 through 2012
-
-Frameworks and Libraries
-  ~ [Vue.js][], [React][], [Riot.js][], and [AngularJS][] _(client-side web app frameworks)_
-  ~ [Vuex][] and [Redux][] _(JavaScript state management)_
-  ~ [UIkit][], [Semantic UI][], and [Bootstrap][] _(web GUI)_
-  ~ [React Native][] and [Weex][] _(native/JavaScript mobile app frameworks)_
-  ~ [Qt][]/[QtQuick][] _(C++/[Python][]/JavaScript desktop GUI)_
-  ~ [Kivy][] _([Python][] embedded GUI)_
-  ~ [Electron][] _([Node.js][] desktop GUI)_
-  ~ [Express][] and [Koa][] _([Node.js][] web servers)_
-  ~ [Django][] _(server-side [Python][] web framework)_
--->
-
-
 <div class="pagebreak"></div>
 
 
@@ -269,7 +184,7 @@ Hobby Projects:
   ~ _Platform: Windows, Linux ([X11][])_
   ~ _Technologies: [Electron][], [Vue.js][], [Node.js][], [Leaflet][], [D3][], [UIkit][]_
 
-[Censh][] / [Karvy][] _Creator, lead developer<br>(April 2018 - present)_
+[Censh][] / [Karvy][] _Creator, lead developer<br>(April 2018 - March 2020)_
   ~ A <abbr title="do-it-yourself">DIY</abbr> car entertainment / navigation system, and the <abbr title="user interface">UI</abbr> for it.
   ~ _Platform: Linux ([Raspberry Pi][])_
   ~ _Technologies: [Python][], [Kivy][], [D-Bus][], [BlueZ][], [PulseAudio][]_
@@ -298,27 +213,10 @@ Hobby Projects:
   ~ _Platforms: Windows, Linux ([X11][])_
   ~ _Technologies: [Python][], [Qt][], WebKit_
 
-<!--
-[fttpwm][] _Lead developer<br>(May 2012 - February 2013)_
-  ~ Fast, Table-Tiling [Python][] Window Manager. (including a pure Python [D-Bus][] client)
-  ~ _Platform: Linux ([X11][])_
-
-[pqrs][] _Creator, sole developer<br>(January 2010 - October 2013)_
-  ~ A realtime status bar for [X11][], using [Python][] and [Qt][].
-  ~ _Platform: Linux ([X11][])_
--->
-
 [PLWM][] _Contributor, release technician, website&nbsp;designer<br>(February 2008 - November 2009)_
   ~ A [Python][] package for implementing window managers, and an accompanying set of example window managers.
   ~ _Platform: Linux ([X11][])_
   ~ _Technologies: [Python][], [X11][], [Subversion][], [CVS][]_
-
-<!--
-[Python-Xlib][] _Contributor, release technician, website&nbsp;designer<br>(March 2008 - November 2009)_
-  ~ A pure [Python][] implementation of an [X11][] client library.
-  ~ _Platform: Linux ([X11][])_
-  ~ _Technologies: [Python][], [X11][], [Subversion][], [CVS][]_
--->
 
 
 Education:
@@ -337,19 +235,3 @@ Languages
   ~ English _(native language)_
   ~ German _(basic proficiency)_
   ~ Spanish _(basic proficiency)_
-
-
-<!--
-Awards and Recognition:
------------------------>
-<!--
-
-Alpha Phi Omega _(service fraternity)_
-  ~ Member starting in 2005.
-
-National Honors Society
-  ~ Inducted in 2002.
-
-Boy Scouts of America
-  ~ Attained the rank of Eagle in 2001.
--->
