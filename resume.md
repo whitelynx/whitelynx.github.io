@@ -134,6 +134,7 @@ Professional Experience:
 ------------------------
 
 [OneFor Holding GmbH][] _Principal Software Engineer<br>(January 2022 - present)_
+  ~ Maintaining a resilient banking system and administrative interface, driving CI/CD and observability efforts, and advocating for data security and code quality improvements.
   ~ _Technologies: Linux, [Git][], [Docker][], [AWS][], [Erlang][], [Node.js][], [React Native][]_
 
 [Indigo Ag, Inc.][] _Principal Software Engineer<br>(July 2019 - November 2021)_
@@ -208,7 +209,7 @@ Hobby Projects:
   ~ [Go][] bindings for [RtAudio][].
   ~ _Platform: Linux_
 
-[Coconut Web Browser][] _Lead developer<br>(April 2009 - June 2013)_
+[Coconut Web Browser][] _Co-creator, lead developer<br>(April 2009 - June 2013)_
   ~ A cross-platform web browser using WebKit technology.
   ~ _Platforms: Windows, Linux ([X11][])_
   ~ _Technologies: [Python][], [Qt][], WebKit_

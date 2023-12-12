@@ -93,12 +93,12 @@ Old / Unmaintained
   ~ [Go][] bindings for [RtAudio][].
   ~ _Platform: Linux_
 
-[Coconut Web Browser][] _Lead developer<br>(April 2009 - June 2013)_
+[Coconut Web Browser][] _Co-creator, lead developer<br>(April 2009 - June 2013)_
   ~ A cross-platform web browser using WebKit technology.
   ~ _Platforms: Windows, Linux ([X11][])_
   ~ _Technologies: [Python][], [Qt][], WebKit_
 
-[fttpwm][] _Lead developer<br>(May 2012 - February 2013)_
+[fttpwm][] _Creator, sole developer<br>(May 2012 - February 2013)_
   ~ Fast, Table-Tiling [Python][] Window Manager. (including a pure Python [D-Bus][] client)
   ~ _Platform: Linux ([X11][])_
 
