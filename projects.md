@@ -23,6 +23,7 @@ order: 1
 [Horde3D]: http://www.horde3d.org/
 [Karvy]: https://github.com/whitelynx/karvy
 [Kivy]: https://kivy.org/
+[LD20X6]: https://gitlab.com/whitelynx/ld20x6
 [Leaflet]: http://leafletjs.com/
 [Node.js]: https://nodejs.org/
 [ODE]: http://ode.org/
@@ -34,6 +35,7 @@ order: 1
 [PostgreSQL]: https://www.postgresql.org/
 [pqrs]: https://bitbucket.org/whitelynx/pqrs
 [PulseAudio]: https://www.freedesktop.org/wiki/Software/PulseAudio/
+[PyGame]: https://www.pygame.org/
 [Python]: http://www.python.org/
 [Python's `logging` module]: https://docs.python.org/2/library/logging.html
 [Python-Xlib]: http://python-xlib.sourceforge.net
@@ -105,6 +107,11 @@ Old / Unmaintained
 [pqrs][] _Creator, sole developer<br>(January 2010 - October 2013)_
   ~ A realtime status bar for [X11][], using [Python][] and [Qt][].
   ~ _Platform: Linux ([X11][])_
+
+[LD20X6][] _Creator, sole developer<br>(April 29th, 2011 - May 2nd, 2011)_
+  ~ Ludum Dare Game Jam Entry for Ludum Dare 20
+  ~ _Platform: Windows, Linux ([X11][]), MacOS_
+  ~ _Technologies: [Python][], [PyGame][]_
 
 [PLWM][] _Contributor, release technician, website&nbsp;designer<br>(February 2008 - November 2009)_
   ~ A [Python][] package for implementing window managers, and an accompanying set of example window managers.
