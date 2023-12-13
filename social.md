@@ -5,10 +5,6 @@ order: 3
 # Social
 
 <div class="grid">
-	<a href="https://keybase.io/codermonkeyfuel">
-		<i class="fab fa-keybase"></i>
-		Keybase
-	</a>
 	<a href="https://github.com/whitelynx/">
 		<i class="fab fa-github"></i>
 		GitHub
@@ -37,9 +33,21 @@ order: 3
 		</svg>
 		Hackaday
 	</a>
+	<a href="https://stackoverflow.com/users/677694/codermonkeyfuel">
+		<i class="fab fa-stack-overflow"></i>
+		Stack Overflow
+	</a>
+	<a href="https://keybase.io/codermonkeyfuel">
+		<i class="fab fa-keybase"></i>
+		Keybase
+	</a>
 	<a href="https://www.linkedin.com/in/davidbronke/">
 		<i class="fab fa-linkedin"></i>
 		LinkedIn
+	</a>
+	<a href="https://www.xing.com/profile/David_Bronke">
+		<i class="fab fa-xing"></i>
+		Xing
 	</a>
 	<a href="https://soundcloud.com/dbronke">
 		<i class="fab fa-soundcloud"></i>
