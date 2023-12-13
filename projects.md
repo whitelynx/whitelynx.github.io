@@ -57,7 +57,7 @@ order: 1
 Recent
 ------
 
-Gloomy Crossbow _Creator, lead developer<br>(June 2019 - present)_
+Gloomy Crossbow _Co-creator, lead developer<br>(June 2019 - present)_
   ~ A cooperative <abbr title="role-playing game">RPG</abbr>
   ~ _Platforms: Windows, Linux ([X11][]), MacOS, etc._
   ~ _Technologies: [Unreal Engine][]_
