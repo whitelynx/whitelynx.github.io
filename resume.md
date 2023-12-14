@@ -177,8 +177,13 @@ Invoke Systems _Junior Software Developer<br>(2005 - 2006)_
 <div class="pagebreak"></div>
 
 
-Hobby Projects:
----------------
+Projects:
+---------
+
+Gloomy Crossbow _Co-creator, lead developer<br>(June 2019 - present)_
+  ~ A cooperative <abbr title="role-playing game">RPG</abbr>
+  ~ _Platforms: Windows, Linux ([X11][]), MacOS, etc._
+  ~ _Technologies: [Unreal Engine][]_
 
 [QueryTron][] _Creator, lead developer<br>(November 2015 - present)_
   ~ A multi-database query tool with geospatial and query plan visualizations.
