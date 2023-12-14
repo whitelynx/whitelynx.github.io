@@ -106,6 +106,7 @@ order: 2
 [SUNY Fredonia]: https://www.fredonia.edu/
 [SUNY Fredonia Computer and Information Sciences Department]: http://home.fredonia.edu/cis
 [SUNY Fredonia ResNet]: http://home.fredonia.edu/its/resnet
+[SWIG]: http://www.swig.org/
 [three.js]: https://threejs.org/
 [TMS]: https://wiki.osgeo.org/index.php?title=Tile_Map_Service_Specification
 [Trello]: https://trello.com/
@@ -141,7 +142,7 @@ Professional Experience:
   ~ Building internal administration/monitoring UIs for data platform and financial platform, migrating financial integrations to Python, participating in architecture planning.
   ~ _Technologies: [Snowflake][], [Python][], [React][], [Ruby on Rails][], [Git][], [Docker][], [AWS][], [S3][], [Oracle ERP][]_
 
-Neighborly (out of business) _Senior Software Engineer<br>(October 2018 - June 2019)_
+Neighborly _Senior Software Engineer<br>(October 2018 - June 2019)_
   ~ Helping architect and implement scalable data platform, migrating existing <abbr title="extract, transform, load">ETL</abbr> from Go scripts to Spark and Airflow, and implementing complex new ETL pipelines.
   ~ _Technologies: Linux, [Spark][], [Airflow][], [Python][], [Pandas][], [Go][], [Git][], [Docker][], [Kubernetes][], [AWS][], [S3][], [Jenkins][]_
 
@@ -149,7 +150,7 @@ Neighborly (out of business) _Senior Software Engineer<br>(October 2018 - June 2
   ~ Designing new mobile app and underlying SDK, improving document rendering system, and customizing mobile apps and document templates for customers.
   ~ _Technologies: Linux, MacOS, [React Native][], [Redux][], iOS / Swift / Objective-C, [Jinja][], [Python][], [Node.js][], [Go][], [Git][]_
 
-[ARMtech Insurance Services, Inc.][] _Business Application Developer and Spatial Specialist<br>(October 2012 - July 2016)_
+[ARMtech Insurance Services, Inc.][] _Business Application Developer<br>and Spatial Specialist<br>(October 2012 - July 2016)_
   ~ Designing and implementing microservices, core message bus library, and <abbr title="geographic information system">GIS</abbr> data import tools for web-based mapping app. Also assembled centralized service logging system, and designed and implemented template-based PDF rendering service.
   ~ _Technologies: Linux, [Node.js][], [Python][], [Docker][], [Redis][], [ElasticSearch][], [Logstash][], [Kibana][], [Grafana][], [Jinja][], [MS SQL Server][], [PostgreSQL][], [SQLite][], [PostGIS][], [SpatiaLite][], [OpenLayers][], [Leaflet][], [Turf.js][], [MBTiles][], [TMS][], [WMS][], [WFS][], C#, WPF, ASP.NET, <abbr title="Entity Framework">EF</abbr>, LINQ, [Git][]_
 
@@ -162,7 +163,7 @@ Neighborly (out of business) _Senior Software Engineer<br>(October 2018 - June 2
   ~ _Technologies: Linux, PHP, DHCPD_
 
 [<abbr title="State University of New York">SUNY</abbr> Fredonia <abbr title="Computer and Information Sciences">CIS</abbr> Department][SUNY Fredonia Computer and Information Sciences Department] _Student system administrator<br>(September 2006 - December 2008)_
-  ~ Administering Linux servers and lab machines for the <abbr title="Computer and Information Sciences">CIS</abbr> department.
+  ~ Administering Linux servers and lab machines for the Computer and Information Sciences department.
   ~ _Technologies: Linux, PHP, [Oracle][] installation, LDAP / <abbr title="Active Directory">AD</abbr> authentication, [Subversion][]_
 
 Ascentium _Developer<br>(August 2008 - November 2008)_
@@ -174,7 +175,9 @@ Invoke Systems _Junior Software Developer<br>(2005 - 2006)_
   ~ _Technologies: Windows, C#, Visual Basic 6, Visual Basic .NET_
 
 
-<div class="pagebreak"></div>
+<h1 class="print-only pagebreak">
+ <span class="fn">David H. Bronke</span>
+</h1>
 
 
 Projects:
@@ -202,7 +205,7 @@ Gloomy Crossbow _Co-creator, lead developer<br>(June 2019 - present)_
 
 [Requiem for Innocence: Precursors][] _Head of Project Development<br>(Fall 2004 - Spring 2016)_
   ~ A massively multiplayer online game that blends flight sim and <abbr title="role-playing game">RPG</abbr> elements. About 45000 lines of code in the latest version.
-  ~ _Platform: Web_
+  ~ _Platform: Web, Windows, Linux ([X11][])_
   ~ _Technologies: C++, [Python][], [Erlang][], [Node.js][], [Crystal Space][], [OGRE][], [Panda3D][], [Horde3D][], [three.js][], [BabylonJS][], [RethinkDB][], [<abbr title="Open Dynamics Engine">ODE</abbr>][ODE], [Bullet Physics][], [CannonJS][]_
 
 [web-pgq][] _Creator, lead developer<br>(September 2014 - October 2015)_
@@ -213,6 +216,7 @@ Gloomy Crossbow _Co-creator, lead developer<br>(June 2019 - present)_
 [GoRtAudio][] _Creator, sole developer<br>(May 2013 - March 2014)_
   ~ [Go][] bindings for [RtAudio][].
   ~ _Platform: Linux_
+  ~ _Technologies: [Go][], [SWIG][]_
 
 [Coconut Web Browser][] _Co-creator, lead developer<br>(April 2009 - June 2013)_
   ~ A cross-platform web browser using WebKit technology.
@@ -220,7 +224,7 @@ Gloomy Crossbow _Co-creator, lead developer<br>(June 2019 - present)_
   ~ _Technologies: [Python][], [Qt][], WebKit_
 
 [PLWM][] _Contributor, release technician, website&nbsp;designer<br>(February 2008 - November 2009)_
-  ~ A [Python][] package for implementing window managers, and an accompanying set of example window managers.
+  ~ A [Python][] package for implementing [X11][] window managers, and an accompanying set of example window managers.
   ~ _Platform: Linux ([X11][])_
   ~ _Technologies: [Python][], [X11][], [Subversion][], [CVS][]_
 
@@ -232,10 +236,7 @@ Education:
   ~ Major in Computer Science.
 
 [Kantonsschule Olten][] _(2001 - 2002)_
-  ~ Spent a year in Switzerland as an exchange student during high school; learned Swiss German.
-
-[Saint Francis High School][] _(1998 - 2003)_
-  ~ Graduated with honors.
+  ~ Spent a year in Switzerland as an exchange student; learned Swiss German.
 
 Languages
   ~ English _(native language)_
