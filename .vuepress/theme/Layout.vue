@@ -102,6 +102,24 @@ h1:first-child {
     margin-top: 0;
 }
 
+.print-only {
+    display: none;
+}
+@media print {
+    .print-only {
+        display: block;
+    }
+}
+
+.underlay {
+    opacity: 6%;
+    font-size: 270%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -0.5em;
+}
+
 code, kbd, pre, samp {
     font-family: 'Oxygen Mono';
     font-size: 0.8em;
