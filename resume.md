@@ -63,7 +63,7 @@ order: 2
 [Node.js]: https://nodejs.org/
 [ODE]: http://ode.org/
 [OGRE]: https://www.ogre3d.org/
-[omega-logger]: https://github.com/whitelynx/web-pgq
+[omega-logger]: https://github.com/Morgul/omega-logger
 [OneFor Holding GmbH]: https://www.onefor.com/
 [OpenLayers]: http://openlayers.org/
 [Oracle]: http://www.oracle.com/
