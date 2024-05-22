@@ -115,9 +115,10 @@ h1:first-child {
     opacity: 6%;
     font-size: 270%;
     position: absolute;
-    left: 0;
+    right: 0.5em;
     top: 50%;
     margin-top: -0.5em;
+    margin-right: -0.5em;
 }
 
 code, kbd, pre, samp {
@@ -329,6 +330,7 @@ dt {
 	float: left;
 	clear: both;
 	margin: 0.7em 0 0;
+	padding-right: 4em;
 	color: #080;
 	font-weight: bold;
 	text-align: right;
