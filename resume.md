@@ -12,6 +12,7 @@ order: 2
 [AWS]: https://aws.amazon.com/
 [BabylonJS]: https://www.babylonjs.com/
 [Bazaar]: http://bazaar.canonical.com/en/
+[BitBucket Pipelines]: https://bitbucket.org/product/features/pipelines
 [BlueZ]: http://www.bluez.org/
 [Bootstrap]: http://getbootstrap.com/
 [Bullet Physics]: http://bulletphysics.org/wordpress/
@@ -19,9 +20,12 @@ order: 2
 [Censh]: https://hackaday.io/project/157460-censh
 [CentOS]: https://www.centos.org/
 [Coconut Web Browser]: https://osdn.net/projects/coconut/
-[Crystal Space]: http://www.crystalspace3d.org/
+[Crystal Entity Layer]: https://sourceforge.net/projects/cel/
+[Crystal Space]: https://sourceforge.net/projects/crystal/
 [CVS]: http://www.nongnu.org/cvs/
 [D3]: https://d3js.org/
+[Dactyl]: https://github.com/adereth/dactyl-keyboard
+[Dactyl Lynx]: https://hackaday.io/project/176016-dactyl-lynx
 [D-Bus]: https://www.freedesktop.org/wiki/Software/dbus/
 [Django]: https://www.djangoproject.com/
 [Docker]: https://www.docker.com/
@@ -38,6 +42,7 @@ order: 2
 [Grafana]: https://grafana.com/
 [Horde3D]: http://www.horde3d.org/
 [Indigo Ag, Inc.]: https://www.indigoag.com/
+[InfluxDB]: https://www.influxdata.com/products/influxdb/
 [Jenkins]: https://jenkins.io/
 [Jinja]: http://jinja.pocoo.org/
 [JIRA]: https://www.atlassian.com/software/jira
@@ -48,6 +53,7 @@ order: 2
 [Kivy]: https://kivy.org/
 [Koa]: http://koajs.in/
 [Kubernetes]: https://kubernetes.io/
+[LD20X6]: https://gitlab.com/whitelynx/ld20x6
 [Leaflet]: http://leafletjs.com/
 [Logstash]: https://www.elastic.co/products/logstash
 [Manjaro]: https://manjaro.org/
@@ -66,6 +72,8 @@ order: 2
 [omega-logger]: https://github.com/Morgul/omega-logger
 [OneFor Holding GmbH]: https://www.onefor.com/
 [OpenLayers]: http://openlayers.org/
+[OpenSCAD]: http://www.openscad.org/
+[OpenTelemetry]: https://opentelemetry.io/
 [Oracle]: http://www.oracle.com/
 [Oracle ERP]: https://www.oracle.com/erp/
 [Panda3D]: http://www.panda3d.org/
@@ -76,9 +84,11 @@ order: 2
 [pqrs]: https://bitbucket.org/whitelynx/pqrs
 [PulseAudio]: https://www.freedesktop.org/wiki/Software/PulseAudio/
 [PyCharm]: http://www.jetbrains.com/pycharm/
+[PyGame]: https://www.pygame.org/
 [Python]: http://www.python.org/
 [Python's `logging` module]: https://docs.python.org/2/library/logging.html
 [Python-Xlib]: http://python-xlib.sourceforge.net
+[QMK]: https://qmk.fm/
 [Qt]: http://www.qt.io/
 [QtQuick]: http://www.qt.io/qt-quick/
 [QueryTron]: https://gitlab.com/whitelynx/querytron
@@ -93,10 +103,12 @@ order: 2
 [Riak KV]: http://basho.com/products/riak-kv/
 [Riot.js]: http://riotjs.com/
 [RtAudio]: http://www.music.mcgill.ca/~gary/rtaudio/
+[RT Soldering Station]: https://hackaday.io/project/161071-rt-soldering-station
 [Ruby on Rails]: https://rubyonrails.org/
 [S3]: https://aws.amazon.com/s3/
 [Saint Francis High School]: https://www.stfrancishigh.org/
 [Semantic UI]: http://semantic-ui.com/
+[SigNoz]: https://signoz.io/
 [Slackware]: http://www.slackware.com/
 [Snowflake]: https://www.snowflake.com/
 [Spark]: https://spark.apache.org/
@@ -111,9 +123,11 @@ order: 2
 [TMS]: https://wiki.osgeo.org/index.php?title=Tile_Map_Service_Specification
 [Trello]: https://trello.com/
 [Turf.js]: http://turfjs.org/
+[TypeScript]: https://www.typescriptlang.org/
 [Ubuntu]: http://www.ubuntu.com/
 [UIkit]: http://getuikit.com/
 [Unreal Engine]: https://www.unrealengine.com/en-US/what-is-unreal-engine-4
+[US NAIP imagery]: https://naip-usdaonline.hub.arcgis.com/
 [Vim]: http://www.vim.org/
 [Vue.js]: http://vuejs.org/
 [Vuex]: https://vuex.vuejs.org/en/
@@ -128,51 +142,43 @@ order: 2
 
 - Motivated, self-taught developer with a love for learning new technologies.
 - Enthusiastic about collaboration and mentoring.
-- Extensive experience in full-stack web development, open source projects, microservices, and tool building.
+- Extensive experience in full-stack web development, open source, microservices, <abbr title="extract, transform, load">ETL</abbr>, and tool building.
 
 
 Professional Experience:
 ------------------------
 
-[OneFor Holding GmbH][] _Principal Software Engineer<br>(January 2022 - present)_
+<i class="fas fa-piggy-bank underlay"></i>[OneFor Holding GmbH][] _Principal Software Engineer<br>(January 2022 - February 2024)<br>Remote, Germany_
   ~ Maintaining a resilient banking system and administrative interface, driving CI/CD and observability efforts, and advocating for data security and code quality improvements.
-  ~ _Technologies: Linux, [Git][], [Docker][], [AWS][], [Erlang][], [Node.js][], [React Native][]_
+  ~ _Technologies: Linux, [Git][], [Docker][], [AWS][], [Erlang][], [PostgreSQL][], [Kubernetes][], [React][], [TypeScript][], [Grafana][], [SigNoz][], [OpenTelemetry][], [BitBucket Pipelines][]_
 
-[Indigo Ag, Inc.][] _Principal Software Engineer<br>(July 2019 - November 2021)_
+<i class="fas fa-seedling underlay"></i>[Indigo Ag, Inc.][] _Principal Software Engineer<br>(July 2019 - November 2021)<br>Boston, MA USA_
   ~ Building internal administration/monitoring UIs for data platform and financial platform, migrating financial integrations to Python, participating in architecture planning.
-  ~ _Technologies: [Snowflake][], [Python][], [React][], [Ruby on Rails][], [Git][], [Docker][], [AWS][], [S3][], [Oracle ERP][]_
+  ~ _Technologies: [Snowflake][], [PostgreSQL][], [Python][], [React][], [TypeScript][], [Ruby on Rails][], [Git][], [Docker][], [AWS][], [S3][], [Oracle ERP][]_
 
-Neighborly _Senior Software Engineer<br>(October 2018 - June 2019)_
+<i class="fas fa-money-bill underlay"></i>Neighborly _Senior Software Engineer<br>(October 2018 - June 2019)<br>Boston, MA USA_
   ~ Helping architect and implement scalable data platform, migrating existing <abbr title="extract, transform, load">ETL</abbr> from Go scripts to Spark and Airflow, and implementing complex new ETL pipelines.
-  ~ _Technologies: Linux, [Spark][], [Airflow][], [Python][], [Pandas][], [Go][], [Git][], [Docker][], [Kubernetes][], [AWS][], [S3][], [Jenkins][]_
+  ~ _Technologies: Linux, [Spark][], [Airflow][], [Python][], [PostgreSQL][], [Pandas][], [Go][], [Git][], [Docker][], [Kubernetes][], [AWS][], [S3][]_
 
-[NewStore, Inc.][] _Solutions Engineer<br>(August 2016 - September 2018)_
-  ~ Designing new mobile app and underlying SDK, improving document rendering system, and customizing mobile apps and document templates for customers.
-  ~ _Technologies: Linux, MacOS, [React Native][], [Redux][], iOS / Swift / Objective-C, [Jinja][], [Python][], [Node.js][], [Go][], [Git][]_
+<i class="fas fa-bag-shopping underlay"></i>[NewStore, Inc.][] _Solutions Engineer<br>(August 2016 - September 2018)<br>Boston, MA USA_
+  ~ Designing new mobile app and underlying SDK, improving document rendering system, and customizing mobile apps and document templates for customers. Leveraging remote pair programming and timezone differences to boost team productivity.
+  ~ _Technologies: Linux, MacOS, [React Native][], [Redux][], [TypeScript][], iOS, Swift, [Jinja][], [Python][], [Node.js][], [Go][], [Git][]_
 
-[ARMtech Insurance Services, Inc.][] _Business Application Developer<br>and Spatial Specialist<br>(October 2012 - July 2016)_
-  ~ Designing and implementing microservices, core message bus library, and <abbr title="geographic information system">GIS</abbr> data import tools for web-based mapping app. Also assembled centralized service logging system, and designed and implemented template-based PDF rendering service.
-  ~ _Technologies: Linux, [Node.js][], [Python][], [Docker][], [Redis][], [ElasticSearch][], [Logstash][], [Kibana][], [Grafana][], [Jinja][], [MS SQL Server][], [PostgreSQL][], [SQLite][], [PostGIS][], [SpatiaLite][], [OpenLayers][], [Leaflet][], [Turf.js][], [MBTiles][], [TMS][], [WMS][], [WFS][], C#, WPF, ASP.NET, <abbr title="Entity Framework">EF</abbr>, LINQ, [Git][]_
+<i class="fas fa-wheat-awn underlay"></i>[ARMtech Insurance Services, Inc.][] _Business Application Developer<br>and Spatial Specialist<br>(October 2012 - July 2016)<br>Lubbock, TX USA_
+  ~ Designing and implementing microservices, core message bus library, and <abbr title="geographic information system">GIS</abbr> data import tools (incl. [US NAIP imagery][] import) for web-based mapping app. Also assembled centralized service logging system, and created template-based PDF rendering service.
+  ~ _Technologies: Linux, [Node.js][], [Python][], [Docker][], [Redis][], [ElasticSearch][], [Logstash][], [Kibana][], [Grafana][], [InfluxDB][], [Jinja][], [MS SQL Server][], [PostgreSQL][], [SQLite][], [PostGIS][], [SpatiaLite][], [OpenLayers][], [Leaflet][], [Turf.js][], [MBTiles][], [TMS][], [WMS][], [WFS][], C#, WPF, ASP.NET, <abbr title="Entity Framework">EF</abbr>, LINQ, [Git][]_
 
-[kgb][] _Developer<br>(February 2009 - October 2012)_
+<i class="fas fa-headset underlay"></i>[kgb][] _Developer<br>(February 2009 - October 2012)<br>Lubbock, TX USA_
   ~ Developing next-gen data access layer and telephony multiplexing service.
   ~ _Technologies: Linux, C, C++, C#, [Erlang][], [Qt][], [ElasticSearch][], [MS SQL Server][], [PostgreSQL][], [Oracle][], ASP.NET, <abbr title="Entity Framework">EF</abbr>, LINQ, [Mercurial][]_
 
-[<abbr title="State University of New York">SUNY</abbr> Fredonia ResNet][SUNY Fredonia ResNet] _System Administrator<br>(June 2007 - December 2008)_
-  ~ Setting up and maintaining Linux servers for the residential network.
+<i class="fas fa-network-wired underlay"></i>[<abbr title="State University of New York">SUNY</abbr> Fredonia ResNet][SUNY Fredonia ResNet] _System Administrator<br>(June 2007 - December 2008)<br>Fredonia, NY USA_
+  ~ Setting up and maintaining Linux servers for the residential network. Rewriting user registration web app for ease of maintenance.
   ~ _Technologies: Linux, PHP, DHCPD_
 
-[<abbr title="State University of New York">SUNY</abbr> Fredonia <abbr title="Computer and Information Sciences">CIS</abbr> Department][SUNY Fredonia Computer and Information Sciences Department] _Student system administrator<br>(September 2006 - December 2008)_
+<i class="fas fa-computer underlay"></i>[<abbr title="State University of New York">SUNY</abbr> Fredonia <abbr title="Computer and Information Sciences">CIS</abbr> Department][SUNY Fredonia Computer and Information Sciences Department] _Student system administrator<br>(September 2006 - December 2008)<br>Fredonia, NY USA_
   ~ Administering Linux servers and lab machines for the Computer and Information Sciences department.
   ~ _Technologies: Linux, PHP, [Oracle][] installation, LDAP / <abbr title="Active Directory">AD</abbr> authentication, [Subversion][]_
-
-Ascentium _Developer<br>(August 2008 - November 2008)_
-  ~ Performing customizations of [Microsoft CRM][] instances.
-  ~ _Technologies: Windows, C#_
-
-Invoke Systems _Junior Software Developer<br>(2005 - 2006)_
-  ~ Translating code samples in the [Microsoft CRM][] docs from <abbr title="Visual Basic 6">VB6</abbr> to <abbr title="Visual Basic .NET">VB.NET</abbr> & C#.
-  ~ _Technologies: Windows, C#, Visual Basic 6, Visual Basic .NET_
 
 
 <h1 class="print-only pagebreak">
@@ -183,50 +189,56 @@ Invoke Systems _Junior Software Developer<br>(2005 - 2006)_
 Projects:
 ---------
 
-Gloomy Crossbow _Co-creator, lead developer<br>(June 2019 - present)_
-  ~ A cooperative <abbr title="role-playing game">RPG</abbr>
-  ~ _Platforms: Windows, Linux ([X11][]), MacOS, etc._
-  ~ _Technologies: [Unreal Engine][]_
+<i class="fas fa-keyboard underlay"></i>[Dactyl Lynx][] _Sole developer<br>(November 2020 - present)_
+  ~ A custom split ergonomic keyboard based on the [Dactyl][].
+  ~ _Platform: STM32, Arduino, RP2040_
+  ~ _Technologies: C, [QMK][], [Python][], Clojure, [OpenSCAD][]_
 
-[QueryTron][] _Creator, lead developer<br>(November 2015 - present)_
+<i class="fas fa-database underlay"></i>[QueryTron][] _Creator, lead developer<br>(November 2015 - present)_
   ~ A multi-database query tool with geospatial and query plan visualizations.
   ~ _Platform: Windows, Linux ([X11][])_
   ~ _Technologies: [Electron][], [Vue.js][], [Node.js][], [Leaflet][], [D3][], [UIkit][]_
 
-[Censh][] / [Karvy][] _Creator, lead developer<br>(April 2018 - March 2020)_
+<i class="fas fa-car-side underlay"></i>[Censh][] / [Karvy][] _Creator, lead developer<br>(April 2018 - March 2020)_
   ~ A <abbr title="do-it-yourself">DIY</abbr> car entertainment / navigation system, and the <abbr title="user interface">UI</abbr> for it.
   ~ _Platform: Linux ([Raspberry Pi][])_
   ~ _Technologies: [Python][], [Kivy][], [D-Bus][], [BlueZ][], [PulseAudio][]_
 
-[omega-logger][] _Creator, lead developer<br>(May 2013 - Spring 2016)_
+<i class="fas fa-microchip underlay"></i>[RT Soldering Station][] _Creator, sole developer<br>(September 2018 - September 2019)_
+  ~ A custom soldering iron station using Weller RT tips.
+  ~ _Platform: Arduino_
+  ~ _Technologies: C_
+
+<i class="fas fa-magnifying-glass underlay"></i>[omega-logger][] _Creator, lead developer<br>(May 2013 - Spring 2016)_
   ~ A simple and powerful logger for [Node.js][] inspired by [Python's `logging` module][].
   ~ _Platform: Linux, Web_
   ~ _Technologies: [Node.js][]_
 
-[Requiem for Innocence: Precursors][] _Head of Project Development<br>(Fall 2004 - Spring 2016)_
+<i class="fas fa-gamepad underlay"></i>[Requiem for Innocence: Precursors][] _Head of Project Development<br>(Fall 2004 - Spring 2016)_
   ~ A massively multiplayer online game that blends flight sim and <abbr title="role-playing game">RPG</abbr> elements. About 45000 lines of code in the latest version.
   ~ _Platform: Web, Windows, Linux ([X11][])_
   ~ _Technologies: C++, [Python][], [Erlang][], [Node.js][], [Crystal Space][], [OGRE][], [Panda3D][], [Horde3D][], [three.js][], [BabylonJS][], [RethinkDB][], [<abbr title="Open Dynamics Engine">ODE</abbr>][ODE], [Bullet Physics][], [CannonJS][]_
 
-[web-pgq][] _Creator, lead developer<br>(September 2014 - October 2015)_
-  ~ A web-based [PostgreSQL][] client with geospatial and query plan visualization.
-  ~ _Platform: Web_
-  ~ _Technologies: [Node.js][], [AngularJS][], [OpenLayers][], [Semantic UI][]_
 
-[GoRtAudio][] _Creator, sole developer<br>(May 2013 - March 2014)_
+<i class="fas fa-volume-high underlay"></i>[GoRtAudio][] _Creator, sole developer<br>(May 2013 - March 2014)_
   ~ [Go][] bindings for [RtAudio][].
   ~ _Platform: Linux_
   ~ _Technologies: [Go][], [SWIG][]_
 
-[Coconut Web Browser][] _Co-creator, lead developer<br>(April 2009 - June 2013)_
+<i class="fas fa-globe underlay"></i>[Coconut Web Browser][] _Co-creator, lead developer<br>(April 2009 - June 2013)_
   ~ A cross-platform web browser using WebKit technology.
   ~ _Platforms: Windows, Linux ([X11][])_
   ~ _Technologies: [Python][], [Qt][], WebKit_
 
-[PLWM][] _Contributor, release technician, website&nbsp;designer<br>(February 2008 - November 2009)_
-  ~ A [Python][] package for implementing [X11][] window managers, and an accompanying set of example window managers.
-  ~ _Platform: Linux ([X11][])_
-  ~ _Technologies: [Python][], [X11][], [Subversion][], [CVS][]_
+<i class="fas fa-gamepad underlay"></i>[LD20X6][] _Creator, sole developer<br>(April 29th, 2011 - May 2nd, 2011)_
+  ~ Ludum Dare Game Jam Entry for Ludum Dare 20
+  ~ _Platform: Windows, Linux ([X11][]), MacOS_
+  ~ _Technologies: [Python][], [PyGame][]_
+
+<i class="fas fa-gamepad underlay"></i>[Crystal Entity Layer][] _Contributor<br>(May 2005 - April 2007)_
+  ~ A game entity layer based on [Crystal Space][]. Implemented the Mechanics system, providing classes for creating realistically simulated spaceships.
+  ~ _Platform: Windows, Linux ([X11][]), MacOS_
+  ~ _Technologies: C++, [Crystal Space][], [<abbr title="Open Dynamics Engine">ODE</abbr>][ODE], [CVS][]_
 
 
 Education:
@@ -240,5 +252,5 @@ Education:
 
 Languages
   ~ English _(native language)_
-  ~ German _(basic proficiency)_
+  ~ German _(conversational proficiency)_
   ~ Spanish _(basic proficiency)_
