@@ -1,6 +1,5 @@
 <template>
 	<article>
-		<script src="https://kit.fontawesome.com/78be0865e8.js"></script>
 		<header>
 			<div class="vcard">
 				<h1 class="fn">David H. Bronke</h1>
@@ -10,43 +9,43 @@
 					Middle Name: <span class="additional-name">Henry</span><br>
 					Last Name: <span class="family-name">Bronke</span>
 				</div>
-				<dl v-if="$site.themeConfig.showContactInfo" :class="{'alt-layout': Boolean($site.themeConfig.url)}">
+				<dl v-if="themeData.showContactInfo" :class="{'alt-layout': Boolean(themeData.url)}">
 					<dt class="email-label"><i class="far fa-envelope"></i></dt>
 						<dd class="email">
-							<a class="value" :href="'mailto:' + $site.themeConfig.email">{{ $site.themeConfig.email }}</a>
+							<a class="value" :href="'mailto:' + themeData.email">{{ themeData.email }}</a>
 						</dd>
 
 					<dt class="adr-label"><i class="fas fa-map-marker-alt"></i></dt>
 						<dd class="adr-container">
-							<!--a class="adr" :href="https://maps.apple.com/?q=' + $site.themeConfig.addressQuery"-->
+							<!--a class="adr" :href="https://maps.apple.com/?q=' + themeData.addressQuery"-->
 							<div class="adr">
-								<div class="street-address">{{ $site.themeConfig.address1 }}</div>
-								<div v-if="$site.themeConfig.address2" class="extended-address">{{ $site.themeConfig.address2 }}</div>
+								<div class="street-address">{{ themeData.address1 }}</div>
+								<div v-if="themeData.address2" class="extended-address">{{ themeData.address2 }}</div>
 								<div>
-									<span class="locality">{{ $site.themeConfig.city }}</span>,
-									<abbr class="region" :title="$site.themeConfig.state">{{ $site.themeConfig.stateAbbr }}</abbr>
-									<span class="postal-code">{{ $site.themeConfig.zip }}</span>
+									<span class="locality">{{ themeData.city }}</span>,
+									<abbr class="region" :title="themeData.state">{{ themeData.stateAbbr }}</abbr>
+									<span class="postal-code">{{ themeData.zip }}</span>
 								</div>
-								<div class="country-name">{{ $site.themeConfig.country }}</div>
+								<div class="country-name">{{ themeData.country }}</div>
 							</div>
 						</dd>
 
-					<dt v-if="$site.themeConfig.phoneNumber" class="tel-label"><i class="fas fa-phone"></i></dt>
-						<dd v-if="$site.themeConfig.phoneNumber" class="tel">
+					<dt v-if="themeData.phoneNumber" class="tel-label"><i class="fas fa-phone"></i></dt>
+						<dd v-if="themeData.phoneNumber" class="tel">
 							<abbr class="type" title="home"></abbr>
 							<abbr class="type" title="voice"></abbr>
-							<a class="value" :href="'tel:' + $site.themeConfig.phoneNumber">{{ $site.themeConfig.phoneNumber }}</a>
+							<a class="value" :href="'tel:' + themeData.phoneNumber">{{ themeData.phoneNumber }}</a>
 						</dd>
 
-					<dt v-if="$site.themeConfig.url" class="url-label"><i class="fas fa-globe"></i></dt>
-						<dd v-if="$site.themeConfig.url" class="url">
-							<a class="value" :href="$site.themeConfig.url">{{ $site.themeConfig.url }}</a>
+					<dt v-if="themeData.url" class="url-label"><i class="fas fa-globe"></i></dt>
+						<dd v-if="themeData.url" class="url">
+							<a class="value" :href="themeData.url">{{ themeData.url }}</a>
 						</dd>
 				</dl>
 			</div>
 
 			<nav>
-				<a v-for="page in pages" :class="{current: $page.key == page.key}" :href="page.path">{{ page.title }}</a>
+				<RouteLink v-for="navPage in pages" :active="navPage.path === page.path" :to="navPage.path">{{ navPage.title }}</RouteLink>
 			</nav>
 		</header>
 
@@ -193,7 +192,7 @@ header nav a:hover, header nav a:focus {
 	border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
-header nav a.current {
+header nav a.route-link-active {
 	color: #fff;
 	background: rgba(0, 0, 0, 0.5);
 	border-bottom-color: rgba(0, 255, 48, 0.5);
@@ -496,12 +495,29 @@ h1:first-child {
 
 <script>
 import * as _ from "lodash";
+import { useThemeData } from '@vuepress/plugin-theme-data/client';
+import { useRoutePaths } from '@vuepress/helper/client'
+import { usePageData } from 'vuepress/client';
+import { useRoutes } from 'vuepress/client';
+import { ref, computed } from 'vue';
 
 export default {
-	computed: {
-		pages: function () {
-			return _.orderBy(this.$site.pages, page => page.frontmatter.order);
-		}
+	setup() {
+		const themeData = useThemeData();
+		const page = usePageData();
+
+		const pages = ref([
+			{ title: 'About', path: '/' },
+			{ title: 'Projects', path: '/projects.html' },
+			{ title: 'Résumé', path: '/resume.html' },
+			{ title: 'Social', path: '/social.html' },
+		]);
+
+		return {
+			themeData,
+			page,
+			pages,
+		};
 	}
-}
+};
 </script>

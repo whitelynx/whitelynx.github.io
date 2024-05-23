@@ -1,7 +1,13 @@
-const fs = require('fs');
+import fs from 'fs';
+
+import { viteBundler } from '@vuepress/bundler-vite';
+import { whitelynxTheme } from './theme';
+import { defineUserConfig } from 'vuepress';
+
+import markdownItDeflist from 'markdown-it-deflist';
 
 
-const defaultThemeConfig = {
+const defaultThemeData = {
   email: '',
   address1: '',
   address2: '',
@@ -17,19 +23,20 @@ const defaultThemeConfig = {
   showContactInfo: false
 };
 
-let themeConfig = defaultThemeConfig;
+let themeData = defaultThemeData;
 try {
-    themeConfig = JSON.parse(fs.readFileSync('.last-gulp-answers.json'));
+    themeData = JSON.parse(fs.readFileSync('.last-gulp-answers.json'));
 } catch(exc) {
     console.warn('Exception reading .last-gulp-answers.json; using default theme config.', exc);
 }
 
 
-module.exports = {
+export default defineUserConfig({
     title: 'David H. Bronke',
     description: 'Software architect/engineer',
-    themeConfig,
-    extendMarkdown(md) {
-        md.use(require('markdown-it-deflist'));
-    }
-};
+    theme: whitelynxTheme(themeData),
+    bundler: viteBundler(),
+    extendsMarkdown: (md) => {
+        md.use(markdownItDeflist);
+    },
+});

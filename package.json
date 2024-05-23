@@ -4,7 +4,7 @@
   "description": "My website",
   "main": "README.md",
   "scripts": {
-    "dev": "vuepress dev --no-clear-screen",
+    "dev": "vuepress dev",
     "build": "vuepress build"
   },
   "repository": {
@@ -18,7 +18,13 @@
   },
   "homepage": "https://github.com/whitelynx/whitelynx.github.io#readme",
   "devDependencies": {
-    "markdown-it-deflist": "^2.0.3",
-    "vuepress": "^1.0.1"
+    "@vuepress/bundler-vite": "^2.0.0-rc.11",
+    "@vuepress/helper": "2.0.0-rc.30",
+    "@vuepress/plugin-theme-data": "2.0.0-rc.30",
+    "@vuepress/theme-default": "^2.0.0-rc.30",
+    "lodash": "^4.17.21",
+    "markdown-it-deflist": "^3.0.0",
+    "vue": "^3",
+    "vuepress": "^2.0.0-rc.11"
   }
 }
