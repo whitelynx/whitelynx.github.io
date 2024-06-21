@@ -84,7 +84,7 @@ Order: 2
 [PyCharm]: http://www.jetbrains.com/pycharm/
 [PyGame]: https://www.pygame.org/
 [Python]: http://www.python.org/
-[Python's `logging` module]: https://docs.python.org/2/library/logging.html
+[Python logging]: https://docs.python.org/2/library/logging.html
 [Python-Xlib]: http://python-xlib.sourceforge.net
 [QMK]: https://qmk.fm/
 [Qt]: http://www.qt.io/
@@ -321,7 +321,7 @@ Projects:
 : _Technologies: C_
 
 <i class="fas fa-magnifying-glass underlay"></i>[omega-logger][] _Creator, lead developer<br>(May 2013 - Spring 2016)_
-: A simple and powerful logger for [Node.js][] inspired by [Python's `logging` module][].
+: A simple and powerful logger for [Node.js][] inspired by [Python's `logging` module][Python logging].
 : _Platform: Linux, Web_
 : _Technologies: [Node.js][]_
 
