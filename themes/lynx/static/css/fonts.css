@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400&family=Khand:wght@300;400;500;600;700&family=Play:wght@400;700&display=swap');
+
+
+.khand-light {
+	font-family: "Khand", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.khand-regular {
+	font-family: "Khand", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.khand-medium {
+	font-family: "Khand", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.khand-semibold {
+	font-family: "Khand", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.khand-bold {
+	font-family: "Khand", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+.play-regular {
+	font-family: "Play", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.play-bold {
+	font-family: "Play", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+.cairo-regular {
+	font-family: "Cairo", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings: "slnt" 0;
+}

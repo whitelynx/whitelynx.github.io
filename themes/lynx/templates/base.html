@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+	<head>
+		{% block head %}
+		<title>{% block title %}{{ SITENAME|striptags }}{% endblock title %}</title>
+		<meta charset="utf-8" />
+		<meta name="generator" content="Pelican" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		{% if SITESUBTITLE %}
+		<meta name="description" content="{{ SITESUBTITLE }}" />
+		{% endif %}
+		<script src="https://kit.fontawesome.com/78be0865e8.js"></script>
+		<link rel="icon" type="image/svg+xml" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/lynx-designs.svg" />
+		<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
+		{% if FEED_ALL_ATOM %}
+		<link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Full Atom Feed" />
+		{% endif %}
+		{% if FEED_ALL_RSS %}
+		<link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} Full RSS Feed" />
+		{% endif %}
+		{% if FEED_ATOM %}
+		<link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL }}{% else %}{{ FEED_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Atom Feed" />
+		{% endif %}
+		{% if FEED_RSS %}
+		<link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% else %}{{ FEED_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} RSS Feed" />
+		{% endif %}
+		{% endblock head %}
+	</head>
+
+	<body>
+		<header>
+			<hgroup><h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>{% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}</hgroup>
+			<nav><ul>
+				{% for p in pages %}
+				<li><a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{ p.title }}</a></li>
+				{% endfor %}
+			</ul></nav>
+		</header>
+		<main>
+			{% block content %}
+			{% endblock %}
+		</main>
+		<footer>
+			<section class="copyright">
+				&copy; 2019-2024 David H. Bronke
+			</section>
+			<section class="powered-by">
+				<a rel="nofollow" href="https://getpelican.com/">Powered by <img src="https://raw.githubusercontent.com/getpelican/pelican/master/docs/_static/pelican-logo.svg" alt="Pelican" title="Pelican" /></a>
+			</section>
+		</footer>
+	</body>
+</html>
