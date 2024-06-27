@@ -60,6 +60,34 @@ Order: 1
 Recent
 ------
 
+<div class="project-thumbs">
+	<a href="https://hackaday.io/project/176016-dactyl-lynx">
+		<img src="https://cdn.hackaday.io/images/1529031709031089167.jpg" alt="The Dactyl Lynx keyboard" title="The Dactyl Lynx keyboard" />
+		<h3>Dactyl Lynx</h3>
+        <em>Sole developer (November 2020 - present)</em>
+        <p>A parameterized, split-hand, concave, columnar, ergonomic keyboard based on the Dactyl.</p>
+        <small>Platform: STM32, Arduino, RP2040</small>
+        <small>Technologies: C, QMK, Python, Clojure, OpenSCAD</small>
+	</a>
+    <a href="https://gitlab.com/whitelynx/querytron">
+		<img src="https://gitlab.com/whitelynx/querytron/-/raw/master/screenshots/query-plan-view.png" alt="QueryTron screenshot: Query Plan view" title="QueryTron screenshot: Query Plan view" />
+        <h3>QueryTron</h3>
+        <em>Creator, lead developer<br>(November 2015 - present)</em>
+        <p>A multi-database query tool with geospatial and query plan visualizations.</p>
+        <small>Platform: Windows, Linux (X11)</small>
+        <small>Technologies: Electron, Vue.js, Node.js, Leaflet, D3, UIkit</small>
+    </a>
+	<a>
+		<img src="https://i.ytimg.com/vi/qZdp_pTg9EU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVXB9FaZ6Bx9NzzuGqAS-WvAO-rg" alt="Gloomy Crossbow" title="Gloomy Crossbow" />
+		<h3>Gloomy Crossbow</h3>
+        <em>Co-creator, lead developer<br>(June 2019 - present)</em>
+        <p>A cooperative <abbr title="role-playing game">RPG</abbr></p>
+        <small>Platforms: Windows, Linux (X11), MacOS, etc.</small>
+        <small>Technologies: Unreal Engine</small>
+	</a>
+</div>
+
+<!--
 <i class="fas fa-keyboard underlay"></i>[Dactyl Lynx][] _Sole developer<br>(November 2020 - present)_
 : A custom split ergonomic keyboard based on the [Dactyl][].
 : _Platform: STM32, Arduino, RP2040_
@@ -74,6 +102,7 @@ Recent
 : A multi-database query tool with geospatial and query plan visualizations.
 : _Platform: Windows, Linux ([X11][])_
 : _Technologies: [Electron][], [Vue.js][], [Node.js][], [Leaflet][], [D3][], [UIkit][]_
+-->
 
 
 Old / Unmaintained
