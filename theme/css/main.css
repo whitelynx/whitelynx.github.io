@@ -231,12 +231,12 @@ article > footer {
 	margin: 0.2rem -1rem -1.2rem;
 }
 
-article > h2, article > h3, article > h4, article > h5, article > h6 {
+article > header > h2, article > h2, article > h3, article > h4, article > h5, article > h6 {
 	position: relative;
 	margin: 1rem -1.5rem;
 	padding: 0.5rem 1.5rem;
 }
-article > h2:first-child, article > h3:first-child, article > h4:first-child, article > h5:first-child, article > h6:first-child {
+article > header:first-child > h2:first-child, article > h2:first-child, article > h3:first-child, article > h4:first-child, article > h5:first-child, article > h6:first-child {
 	margin-top: -1rem;
 }
 article h2 {
@@ -305,8 +305,24 @@ article *+p {
 .project-thumbs > a > h3 {
 	margin-bottom: 1rem;
 }
+.project-thumbs > a > em {
+	display: block;
+	font-size: small;
+	font-variant: italic;
+}
+.project-thumbs > a > p {
+	display: block;
+	margin: 0.5em;
+}
+.project-thumbs > a > small {
+	display: block;
+	font-size: small;
+}
 .project-thumbs > a:hover, .project-thumbs > a:focus {
 	background: rgba(0, 0, 0, 0.8);
+}
+.project-thumbs > a:hover {
+	scale: 101%;
 }
 @media screen and (min-width: 681px) {
 	.project-thumbs {
