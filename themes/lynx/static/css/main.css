@@ -307,8 +307,8 @@ article *+p {
 }
 .project-thumbs > a > em {
 	display: block;
-	font-size: small;
-	font-variant: italic;
+	font-size: smaller;
+	font-style: italic;
 }
 .project-thumbs > a > p {
 	display: block;
@@ -316,7 +316,7 @@ article *+p {
 }
 .project-thumbs > a > small {
 	display: block;
-	font-size: small;
+	font-size: smaller;
 }
 .project-thumbs > a:hover, .project-thumbs > a:focus {
 	background: rgba(0, 0, 0, 0.8);
