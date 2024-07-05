@@ -77,7 +77,7 @@ Recent
         <small>Platform: Windows, Linux (X11)</small>
         <small>Technologies: Electron, Vue.js, Node.js, Leaflet, D3, UIkit</small>
     </a>
-	<a>
+	<a href="https://youtube.com/playlist?list=PL5mbJ-9-fsoHo-SUqWZOU30tOMOoKEzcL&feature=shared">
 		<img src="https://i.ytimg.com/vi/qZdp_pTg9EU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVXB9FaZ6Bx9NzzuGqAS-WvAO-rg" alt="Gloomy Crossbow" title="Gloomy Crossbow" />
 		<h3>Gloomy Crossbow
         <em>Co-creator, lead developer (June 2019 - present)</em></h3>
