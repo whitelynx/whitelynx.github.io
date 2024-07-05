@@ -307,8 +307,15 @@ article *+p {
 }
 .project-thumbs > a > em {
 	display: block;
-	font-size: smaller;
+	font-size: 0.7rem;
 	font-style: italic;
+}
+.project-thumbs > a > h3 > em {
+	position: relative;
+	top: 0;
+	right: 0;
+	margin-top: 0;
+	font-size: 0.7rem;
 }
 .project-thumbs > a > p {
 	display: block;
@@ -316,7 +323,7 @@ article *+p {
 }
 .project-thumbs > a > small {
 	display: block;
-	font-size: smaller;
+	font-size: 0.7rem;
 }
 .project-thumbs > a:hover, .project-thumbs > a:focus {
 	background: rgba(0, 0, 0, 0.8);
