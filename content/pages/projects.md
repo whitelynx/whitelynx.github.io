@@ -141,6 +141,22 @@ Old / Unmaintained
         <small>Platform: Web</small>
         <small>Technologies: Node.js, AngularJS, OpenLayers, Semantic UI</small>
 	</a>
+    <a href="https://gitlab.com/whitelynx/qsb">
+		<img src="/images/qsb.png" alt="qsb" title="qsb" />
+		<h3>qsb
+        <em>Creator, sole developer (June 2015 - July 2015)</em></h3>
+        <p>A QtQuick status bar for Linux.</p>
+        <small>Platform: Linux (X11)</small>
+        <small>Technologies: C++, Qt, QtQuick</small>
+	</a>
+    <a href="https://github.com/whitelynx/qwb">
+		<img src="/images/qwb.png" alt="qwb" title="qwb" />
+		<h3>qwb
+        <em>Creator, sole developer (July 2014)</em></h3>
+        <p>A cross-platform web browser using QtQuick and Chromium.</p>
+        <small>Platform: Windows, Linux (X11)</small>
+        <small>Technologies: C++, Qt, QtQuick, Chromium</small>
+	</a>
     <a href="https://github.com/whitelynx/gortaudio">
 		<img src="https://picsum.photos/id/434/500/300?grayscale&blur=5" alt="GoRtAudio" title="GoRtAudio" />
 		<h3>GoRtAudio
@@ -165,7 +181,7 @@ Old / Unmaintained
         <small>Technologies: Python</small>
 	</a>
     <a href="https://bitbucket.org/whitelynx/pqrs">
-		<img src="https://picsum.photos/id/434/500/300?grayscale&blur=5" alt="pqrs" title="pqrs" />
+		<img src="/images/pqrs.png" alt="pqrs" title="pqrs" />
 		<h3>pqrs
         <em>Creator, sole developer (January 2010 - October 2013)</em></h3>
         <p>A realtime status bar for X11, using Python and Qt.</p>
@@ -233,6 +249,16 @@ Old / Unmaintained
 : A web-based [PostgreSQL][] client with geospatial and query plan visualization.
 : _Platform: Web_
 : _Technologies: [Node.js][], [AngularJS][], [OpenLayers][], [Semantic UI][]_
+
+<i class="fas fa-window-restore underlay"></i>[qsb][] _Creator, sole developer<br>(June 2015 - July 2015)_
+: A QtQuick status bar for Linux.
+: _Platforms: Linux ([X11][])_
+: _Technologies: C++, [Qt][], [QtQuick][]_
+
+<i class="fas fa-globe underlay"></i>[qwb][] _Creator, sole developer<br>(July 2014)_
+: A cross-platform web browser using QtQuick and Chromium.
+: _Platforms: Windows, Linux ([X11][])_
+: _Technologies: C++, [Qt][], [QtQuick][], Chromium_
 
 <i class="fas fa-volume-high underlay"></i>[GoRtAudio][] _Creator, sole developer<br>(May 2013 - March 2014)_
 : [Go][] bindings for [RtAudio][].
