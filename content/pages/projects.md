@@ -108,6 +108,112 @@ Recent
 Old / Unmaintained
 ------------------
 
+<div class="project-thumbs">
+	<a href="https://hackaday.io/project/157460-censh">
+		<img src="https://cdn.hackaday.io/images/5684681525213412049.png" alt="Karvy - Music screen" title="Karvy - Music screen" />
+		<h3>Censh / Karvy
+        <em>Creator, lead developer (April 2018 - March 2020)</em></h3>
+        <p>A parameterized, split-hand, concave, columnar, ergonomic keyboard based on the Dactyl.</p>
+        <small>Platform: Linux (Raspberry Pi)</small>
+        <small>Technologies: Python, Kivy, D-Bus, BlueZ, PulseAudio</small>
+	</a>
+	<a href="https://github.com/Morgul/omega-logger">
+		<img src="/images/omega-logger.png" alt="omega-logger example" title="omega-logger example" />
+		<h3>omega-logger
+        <em>Creator, lead developer (May 2013 - Spring 2016)</em></h3>
+        <p>A simple and powerful logger for Node.js inspired by Python's `logging` module.</p>
+        <small>Platform: Linux, Web</small>
+        <small>Technologies: Node.js</small>
+	</a>
+    <a href="https://github.com/SkewedAspect/rfi-webgl-client">
+		<img src="https://github.com/SkewedAspect/rfi-content/blob/master/source/gui/Graphics/precursors_logo.png?raw=true" alt="Requiem for Innocence: Precursors" title="Requiem for Innocence: Precursors" />
+		<h3>Requiem for Innocence: Precursors
+        <em>Head of Project Development (Fall 2004 - Spring 2016)</em></h3>
+        <p>A massively multiplayer online game that blends flight sim and <abbr title="role-playing game">RPG</abbr> elements. About 45000 lines of code in the latest version.</p>
+        <small>Platform: Web</small>
+        <small>Technologies: C++, Python, Erlang, Node.js, Crystal Space, OGRE, Panda3D, Horde3D, three.js, BabylonJS, RethinkDB, <abbr title="Open Dynamics Engine">ODE</abbr>, Bullet Physics, CannonJS</small>
+	</a>
+    <a href="https://github.com/whitelynx/web-pgq">
+		<img src="https://picsum.photos/id/434/500/300?grayscale&blur=5" alt="web-pgq" title="web-pgq" />
+		<h3>web-pgq
+        <em>Creator, lead developer (September 2014 - October 2015)</em></h3>
+        <p>A web-based PostgreSQL client with geospatial and query plan visualization.</p>
+        <small>Platform: Web</small>
+        <small>Technologies: Node.js, AngularJS, OpenLayers, Semantic UI</small>
+	</a>
+    <a href="https://github.com/whitelynx/gortaudio">
+		<img src="https://picsum.photos/id/434/500/300?grayscale&blur=5" alt="GoRtAudio" title="GoRtAudio" />
+		<h3>GoRtAudio
+        <em>Creator, sole developer (May 2013 - March 2014)</em></h3>
+        <p>Go bindings for RtAudio.</p>
+        <small>Platform: Linux</small>
+	</a>
+    <a href="https://osdn.net/projects/coconut/">
+		<img src="https://picsum.photos/id/434/500/300?grayscale&blur=5" alt="Coconut Web Browser" title="Coconut Web Browser" />
+		<h3>Coconut Web Browser
+        <em>Co-creator, lead developer (April 2009 - June 2013)</em></h3>
+        <p>A cross-platform web browser using WebKit technology.</p>
+        <small>Platform: Windows, Linux (X11)</small>
+        <small>Technologies: Python, Qt, WebKit</small>
+	</a>
+    <a href="https://osdn.net/projects/fttpwm/">
+		<img src="https://raw.githubusercontent.com/whitelynx/fttpwm/%40/fttpwm/resources/default-wallpaper.svg" alt="fttpwm" title="fttpwm" />
+		<h3>fttpwm
+        <em>Creator, sole developer (May 2012 - February 2013)</em></h3>
+        <p>Fast, Table-Tiling Python Window Manager. (including a pure Python D-Bus client)</p>
+        <small>Platform: Linux (X11)</small>
+        <small>Technologies: Python</small>
+	</a>
+    <a href="https://bitbucket.org/whitelynx/pqrs">
+		<img src="https://picsum.photos/id/434/500/300?grayscale&blur=5" alt="pqrs" title="pqrs" />
+		<h3>pqrs
+        <em>Creator, sole developer (January 2010 - October 2013)</em></h3>
+        <p>A realtime status bar for X11, using Python and Qt.</p>
+        <small>Platform: Linux (X11)</small>
+	</a>
+    <a href="https://gitlab.com/whitelynx/ld20x6">
+		<img src="https://gitlab.com/whitelynx/ld20x6/-/raw/master/screenshots/ld20x6-screenshot.png" alt="LD20X6" title="LD20X6" />
+		<h3>LD20X6
+        <em>Creator, sole developer (April 29th, 2011 - May 2nd, 2011)</em></h3>
+        <p>Ludum Dare Game Jam Entry for Ludum Dare 20</p>
+        <small>Platform: Windows, Linux (X11), MacOS</small>
+        <small>Technologies: Python, PyGame</small>
+	</a>
+    <a href="https://gitlab.com/whitelynx/epic">
+		<img src="https://gitlab.com/whitelynx/epic/-/raw/main/screenshot.png" alt="EPIC: Enhanced Project Information and Control" title="EPIC: Enhanced Project Information and Control" />
+		<h3>EPIC
+        <em>Co-creator, lead developer (May 2009 - Dec. 2009)</em></h3>
+        <p>A self-hosted project management system, similar to Trac or GitHub.</p>
+        <small>Platform: Web</small>
+        <small>Technologies: Python, Django, Twisted, Bazaar</small>
+	</a>
+    <a href="http://plwm.sourceforge.net">
+		<img src="https://picsum.photos/id/434/500/300?grayscale&blur=5" alt="PLWM" title="PLWM" />
+		<h3>PLWM
+        <em>Contributor, release&nbsp;technician, website&nbsp;designer (February 2008 - November 2009)</em></h3>
+        <p>A Python package for implementing window managers, and an accompanying set of example window managers.</p>
+        <small>Platform: Linux (X11)</small>
+        <small>Technologies: Python, X11, Subversion, CVS</small>
+	</a>
+    <a href="http://python-xlib.sourceforge.net">
+		<img src="https://picsum.photos/id/434/500/300?grayscale&blur=5" alt="Python-Xlib" title="Python-Xlib" />
+		<h3>Python-Xlib
+        <em>Contributor, release&nbsp;technician, website&nbsp;designer (March 2008 - November 2009)</em></h3>
+        <p>A pure Python implementation of an X11 client library.</p>
+        <small>Platform: Linux (X11)</small>
+        <small>Technologies: Python, X11, Subversion, CVS</small>
+	</a>
+    <a href="https://sourceforge.net/projects/cel/">
+		<img src="/images/crystallogo.png" alt="Crystal Entity Layer (part of the Crystal Space project)" title="Crystal Entity Layer (part of the Crystal Space project)" />
+		<h3>Crystal Entity Layer
+        <em>Contributor (May 2005 - April 2007)</em></h3>
+        <p>A game entity layer based on Crystal Space. Implemented the Mechanics system, providing classes for creating realistically simulated spaceships.</p>
+        <small>Platform: Windows, Linux (X11), MacOS</small>
+        <small>Technologies: C++, Crystal Space, <abbr title="Open Dynamics Engine">ODE</abbr>, CVS</small>
+	</a>
+</div>
+
+<!--
 <i class="fas fa-car-side underlay"></i>[Censh][] / [Karvy][] _Creator, lead developer<br>(April 2018 - March 2020)_
 : A <abbr title="do-it-yourself">DIY</abbr> car entertainment / navigation system, and the <abbr title="user interface">UI</abbr> for it.
 : _Platform: Linux ([Raspberry Pi][])_
@@ -150,6 +256,11 @@ Old / Unmaintained
 : _Platform: Windows, Linux ([X11][]), MacOS_
 : _Technologies: [Python][], [PyGame][]_
 
+<i class="fas fa-code-branch underlay"></i>[EPIC][] _Co-creator, lead developer<br>(May 2009 - Dec. 2009)_
+: A self-hosted project management system, similar to Trac or GitHub.
+: _Platforms: Web_
+: _Technologies: [Python][], [Django][], [Twisted][], [Bazaar][]_
+
 <i class="fas fa-window-restore underlay"></i>[PLWM][] _Contributor, release technician, website&nbsp;designer<br>(February 2008 - November 2009)_
 : A [Python][] package for implementing window managers, and an accompanying set of example window managers.
 : _Platform: Linux ([X11][])_
@@ -164,3 +275,4 @@ Old / Unmaintained
 : A game entity layer based on [Crystal Space][]. Implemented the Mechanics system, providing classes for creating realistically simulated spaceships.
 : _Platform: Windows, Linux ([X11][]), MacOS_
 : _Technologies: C++, [Crystal Space][], [<abbr title="Open Dynamics Engine">ODE</abbr>][ODE], [CVS][]_
+-->
