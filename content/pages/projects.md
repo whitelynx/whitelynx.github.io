@@ -129,7 +129,7 @@ Old / Unmaintained
         <img src="/images/omega-logger.png" alt="omega-logger example" title="omega-logger example" />
         <h3>omega-logger
         <em>Creator, lead developer (May 2013 - Spring 2016)</em></h3>
-        <p>A simple and powerful logger for Node.js inspired by Python's `logging` module.</p>
+        <p>A simple and powerful logger for Node.js inspired by Python's <code>logging</code> module.</p>
         <small>Platform: Linux, Web</small>
         <small>Technologies: Node.js</small>
     </a>

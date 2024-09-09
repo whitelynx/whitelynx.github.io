@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400&family=Khand:wght@300;400;500;600;700&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Khand:wght@300;400;500;600;700&family=Play:wght@400;700&family=Share+Tech+Mono&display=swap');
 
 
 .khand-light {
@@ -51,4 +51,11 @@
 	font-weight: 400;
 	font-style: normal;
 	font-variation-settings: "slnt" 0;
+}
+
+
+.share-tech-mono-regular {
+	font-family: "Share Tech Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
 }
