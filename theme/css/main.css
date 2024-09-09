@@ -98,6 +98,12 @@ dd em {
 	font-size: 11pt;
 }
 
+code, pre {
+	font-family: "Share Tech Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
+}
+
 
 /* Page structure */
 html {
