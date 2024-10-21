@@ -235,8 +235,8 @@ Old / Unmaintained
         <small>Platform: Windows, Linux (X11), MacOS</small>
         <small>Technologies: C++, Crystal Space, <abbr title="Open Dynamics Engine">ODE</abbr>, CVS</small>
     </a>
-    <a>
-        <img src="https://picsum.photos/id/434/500/300?grayscale&blur=5" alt="phpMp2" title="phpMp2" />
+    <a href="https://github.com/whitelynx/phpMp2">
+        <img src="https://raw.githubusercontent.com/whitelynx/phpMp2/%40/screenshot.png" alt="phpMp2" title="phpMp2" />
         <h3>phpMp2
         <em>Creator, lead developer (Feb. 2004 - Oct. 2008)</em></h3>
         <p>A PHP-backed web client for <abbr title="Music Player Daemon">MPD</abbr>, an open-source server for playing music.</p>
