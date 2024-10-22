@@ -23,7 +23,7 @@ Highlighted Projects _[See more...](/projects/)_
         A parameterized, split-hand, concave, columnar, ergonomic keyboard based on the Dactyl.
 	</a>
 	<a href="https://github.com/whitelynx/karvy">
-		<img src="https://camo.githubusercontent.com/749cc5b496627a4058011189a41b2f4dd5e39f3e8900aa92b61dfa9fe9298fd9/68747470733a2f2f692e696d6775722e636f6d2f366d376f65544a2e706e67" alt="Karvy - A Kivy-based car entertainment system interface" title="Karvy - A Kivy-based car entertainment system interface" />
+		<img src="https://cdn.hackaday.io/images/5684681525213412049.png" alt="Karvy - A Kivy-based car entertainment system interface" title="Karvy - A Kivy-based car entertainment system interface" />
 		<h3>Karvy</h3>
         A Kivy-based car entertainment system interface.
 	</a>
