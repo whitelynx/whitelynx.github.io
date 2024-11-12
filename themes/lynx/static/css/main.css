@@ -401,6 +401,16 @@ article *+p {
 	-webkit-filter: drop-shadow(0 0 6px #00aa18);
 	filter: drop-shadow(0 0 6px #00aa18);
 }
+.grid > a > svg.social-flux-svg {
+	width: 61px;
+}
+.grid > a:hover > svg.social-flux-svg path, .grid > a:focus > svg.social-flux-svg path {
+	fill: #1dfdc0;
+}
+.grid > a:hover > svg.social-flux-svg, .grid > a:focus > svg.social-flux-svg {
+	-webkit-filter: drop-shadow(0 0 6px #666);
+	filter: drop-shadow(0 0 6px #666);
+}
 .grid > a:hover > i.fa-linkedin, .grid > a:focus > i.fa-linkedin {
 	color: #0073b1;
 	text-shadow: 0 0 6px #666;

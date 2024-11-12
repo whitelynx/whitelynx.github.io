@@ -31,6 +31,12 @@ Order: 3
 		</svg>
 		Hackaday
 	</a>
+	<a href="https://www.flux.ai/whitelynx">
+		<svg role="img" class="social-flux-svg" aria-labelledby="social-flux" viewBox="0 0 499 656" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M498.462 119.885V0H34.3928V134.803V159.404L59.0931 184.084L0 243.051L59.015 302.017L0 361.062L59.015 420.028L0 479.072L34.3928 513.437V532.259V655.268H173.996V382.149H491.583V262.342H173.996V119.885H498.462ZM173.996 285.772H468.133V358.797H173.996H150.547V382.227V631.838H57.8425V532.259V503.674L33.1422 478.994L92.1571 420.028L33.1422 361.062L92.1571 302.095L33.1422 243.129L92.1571 184.162L57.7643 149.798V134.881V23.4303H474.934V96.4549H173.996H150.547V119.885V262.342V285.772H173.996V285.772Z" />
+        </svg>
+		Flux
+	</a>
 	<a href="https://stackoverflow.com/users/677694/codermonkeyfuel">
 		<i class="fab fa-stack-overflow"></i>
 		Stack Overflow
