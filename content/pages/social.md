@@ -45,6 +45,10 @@ Order: 3
 		<i class="fab fa-keybase"></i>
 		Keybase
 	</a>
+    <a href="https://ohai.social/@Lynx">
+		<i class="fab fa-mastodon"></i>
+        Mastodon
+    </a>
 	<a href="https://www.linkedin.com/in/davidbronke/">
 		<i class="fab fa-linkedin"></i>
 		LinkedIn
