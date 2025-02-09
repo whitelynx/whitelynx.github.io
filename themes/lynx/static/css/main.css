@@ -411,6 +411,10 @@ article *+p {
 	-webkit-filter: drop-shadow(0 0 6px #666);
 	filter: drop-shadow(0 0 6px #666);
 }
+.grid > a:hover > i.fa-mastodon, .grid > a:focus > i.fa-mastodon {
+	color: #5d4fe7;
+	text-shadow: 0 0 6px #666;
+}
 .grid > a:hover > i.fa-linkedin, .grid > a:focus > i.fa-linkedin {
 	color: #0073b1;
 	text-shadow: 0 0 6px #666;
