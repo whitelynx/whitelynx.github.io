@@ -49,6 +49,7 @@ Order: 1
 [RethinkDB]: https://www.rethinkdb.com/
 [RtAudio]: http://www.music.mcgill.ca/~gary/rtaudio/
 [Semantic UI]: http://semantic-ui.com/
+[Snowshoe PCBs]: https://hackaday.io/project/199185-snowshoe-single-keyswitch-hotswap-boards
 [Subversion]: https://subversion.apache.org/
 [three.js]: https://threejs.org/
 [UIkit]: http://getuikit.com/
@@ -68,6 +69,14 @@ Recent
         <p>A parameterized, split-hand, concave, columnar, ergonomic keyboard based on the Dactyl.</p>
         <small>Platform: STM32, Arduino, RP2040</small>
         <small>Technologies: C, QMK, Rust, RMK, Python, Clojure, OpenSCAD</small>
+    </a>
+    <a href="https://hackaday.io/project/199185-snowshoe-single-keyswitch-hotswap-boards">
+        <img src="https://cdn.hackaday.io/images/8179151740000627374.jpg" alt="Snowshoe Single Keyswitch Hotswap Boards" title="Snowshoe Single Keyswitch Hotswap Boards" />
+        <h3>Snowshoe Single Keyswitch Hotswap Boards
+        <em>Sole developer (November 2024 - present)</em></h3>
+        <p>Some very simple PCBs to make it easier to work with Kailh MX or Choc hotswap sockets</p>
+        <small>Platform: Hardware (electronics)</small>
+        <small>Technologies: KiCad</small>
     </a>
     <a href="https://gitlab.com/whitelynx/querytron">
         <img src="https://gitlab.com/whitelynx/querytron/-/raw/master/screenshots/query-plan-view.png" alt="QueryTron screenshot: Query Plan view" title="QueryTron screenshot: Query Plan view" />
