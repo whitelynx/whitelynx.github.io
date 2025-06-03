@@ -7,6 +7,7 @@ name = "pypi"
 pelican = {extras = ["markdown"], version = "*"}
 markdown-headdown = "*"
 ghp-import = "*"
+pelican-redirect-url = "*"
 
 [dev-packages]
 

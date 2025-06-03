@@ -53,6 +53,8 @@ DEFAULT_DATE = 'fs'
 
 THEME = "themes/lynx"
 
+PLUGINS = ['redirect_url']
+
 PAGE_ORDER_BY = 'order'
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
