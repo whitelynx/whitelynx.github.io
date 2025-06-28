@@ -33,7 +33,9 @@
 			<hgroup><h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>{% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}</hgroup>
 			<nav><ul>
 				{% for p in pages %}
+				{% if not p.url.startswith('p/') %}
 				<li><a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{ p.title }}</a></li>
+				{% endif %}
 				{% endfor %}
 			</ul></nav>
 		</header>
